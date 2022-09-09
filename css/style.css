@@ -49,9 +49,25 @@ li{
     border: 2px solid black;
 }
 
-.text-span{
+.text-span ::before{
     color: #c00407;
 }
+
+.icon-wrap{
+    position: relative;
+}
+
+.icon-img {
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -30px;
+    display: block;
+    /* background: var(--blue); */
+    border-radius: 2px;
+    fill: red;
+  }
 
 
 
