@@ -10,7 +10,12 @@
     list-style: none;
 }
 
+.why-us-img {
+    width: 500px;
+    height: auto;
+}
+
 .why-us-img{
-    width: 300px;
+    width: 100%;
     height: auto;
 }
