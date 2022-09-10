@@ -1,0 +1,23 @@
+.text-span{
+    color: red;
+}
+
+.first-button-arrow{
+    cursor: pointer;
+    background-color: #c00407;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 2px;
+    border: none;
+}
+
+.second-button-arrow{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    width: 100px;
+    height: 40px;
+    border-radius: 2px;
+    border: 2px solid black;
+}
