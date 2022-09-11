@@ -1,0 +1,22 @@
+:root {
+    
+    --font-primary: 'DM Sans', sans-serif;
+    --font-secondary: 'Titan One', cursive;
+  
+    
+    --cl-light: #ffffff;
+    --cl-dark: #000000;
+    --cl-red: #d41443;
+    --cl-pink: #ffa5ba;
+  
+    
+    --bg-light: #ffffff;
+    --bg-pink: #ffb8ca;
+    --bg-lightpink: #fff5f6;
+    --bg-red: #d41443;
+    --bg-hover: #ecebeb;
+    --bg-modal: #e17992;
+    --bg-grey: #fafafa;
+    --bg-border: #E1E1E1;
+   
+  }
