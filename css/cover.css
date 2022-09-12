@@ -1,5 +1,16 @@
 .cover {
     background-color: #333333;
+    background-image: url("../img/rental-photo.png");
+    width: 100%;
+    height: max-content;
+    padding-top: 235px;
+    padding-bottom: 195px;
+    box-sizing: border-box;
+}
+
+.cover__p-rental {
+    color: rgb(223,223,223);
+    font-weight: bold;
 }
 
 .cover__button {

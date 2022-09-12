@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+* {
+margin: 0;
+padding: 0;
+}
+
 :root {
     
     --font-primary: 'DM Sans', sans-serif;
@@ -20,7 +25,6 @@
     --bg-modal: #e17992;
     --bg-grey: #fafafa;
     --bg-border: #E1E1E1;
-   
   }
 
   html {
