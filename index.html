@@ -31,13 +31,13 @@
     <div class="main-header">
       <img src="icon/main-logo.svg" alt="" />
       <nav class="main-header__navigation">
-        <a href="#aboutus">About us</a>
-        <a href="#coffemachine">Coffe machine</a>
-        <a href="#testimonials">Testimonials</a>
-        <a href="#services">Services</a>
-        <a href="#coffee">Coffee</a>
-        <a href="#pricing">Pricing</a>
-        <a href="#contacts">Contacts</a>
+        <a class="navigation__item" href="#aboutus">About us</a>
+        <a class="navigation__item" href="#coffemachine">Coffe machine</a>
+        <a class="navigation__item" href="#testimonials">Testimonials</a>
+        <a class="navigation__item" href="#services">Services</a>
+        <a class="navigation__item" href="#coffee">Coffee</a>
+        <a class="navigation__item" href="#pricing">Pricing</a>
+        <a class="navigation__item" href="#contacts">Contacts</a>
       </nav>
       <div class="main-header__contacts">
         <a href="#">
@@ -103,11 +103,12 @@
 
   <main>
     <section class="cover">
+      <div class="cover__background"></div>
       <p>RENTAL</p>
-      <h2>Rent a Coffee
+      <h2 class="cover__title">Rent a <span class="font-color-red">Coffee</span>
         Machine</h2>
       <p>Need a coffee machine for commercial or home use? Get one here!</p>
-      <a href="#coffemachine">Coffee Machine</a>
+      <a class="cover__button" href="#coffemachine">Coffee Machine</a>
     </section>
     <section class="features">
       <div class="warranty__features">
