@@ -1,5 +1,10 @@
 @import url(common.css);
 
+@import url(header.css);
+@import url(cover.css);
+@import url(features.css);
+
 @import url(why-us.css);
 @import url(about-machine.css);
 @import url(banner.css);
+@import url(franches.css);
