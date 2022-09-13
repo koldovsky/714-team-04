@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+
 * {
-margin: 0;
-padding: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 :root {
@@ -35,13 +37,14 @@ body {
     font-family: var(--font-primary);
     font-size: 14px;
     letter-spacing: 0.04em;
+    border: 1px solid red;
 }
 
 .link {
     text-decoration: none;
 }
 
-.list {
+li {
     list-style: none;
 }
 
@@ -72,5 +75,10 @@ button {
 
 img {
     display: block;
-    height: auto;
+    width: 100%;
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
 }

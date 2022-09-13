@@ -1,9 +1,12 @@
+.about-machine-wrap{
+  display: flex;
+}
+
 .icon-wrap{
     position: relative;
     align-items: center;
     text-align: center;
     display: flex;
-    list-style: none;
 }
 
 .menu-contact__icon::before {
@@ -11,21 +14,9 @@
     position: absolute;
     left: 20px;
     display: block;
-    /* background: var(--blue); */
   }
 
   .about-machine-img{
-    width: 500px;
-    height: auto;
-  }
-
-  /* .menu-list__link--current::before{
-    content: "";
     width: 100%;
-    height: 4px;
-    position: absolute;
-    bottom: 0;
-    display: block;
-    background: var(--blue);
-    border-radius: 2px;
-  } */
+    height: 100%;
+  }
