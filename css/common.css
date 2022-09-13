@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 * {
     margin: 0;
@@ -61,13 +60,16 @@ p {
     font-family: var(--font-primary);
     font-size: 16px;
     color: var(--cl-dark-accent);
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 h1 {
     font-family: var(--font-secondary);
     color: var(--cl-dark-header);
     font-size: 34px;
-    
+    font-weight: 700;
+
 }
 
 h2 {
@@ -97,8 +99,11 @@ button {
 }
 
 img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    
 
- 
 }
 
 .container {

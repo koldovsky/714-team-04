@@ -1,3 +1,26 @@
-.about__text-content {
+#aboutus {
+    display: flex;
+    padding-top: 45px;
+    padding-bottom: 45px;
   
+}
+
+#aboutus, img {
+
+    border-radius: 1%;
+    vertical-align: baseline;
+  
+}
+
+#aboutus, div {
+ 
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.text-content-list {
+    display: flex;   
+    align-items: flex-start;
+    
+    
 }
