@@ -1,0 +1,17 @@
+.why-choose-us {
+   display: flex; 
+}
+.why-choose-us__item {
+   display: flex; 
+}
+.why-choose-us__icon {
+   justify-content: center;
+   width: 20px;
+   height: auto;
+}
+.why-choose-us__number {
+   font-size: 15px;
+   font-weight: 300;
+   text-align: center;
+   color:  --cl-dark;
+}
