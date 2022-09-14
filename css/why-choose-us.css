@@ -1,8 +1,8 @@
 .why-choose-us {
-   display: block; 
+   display: flex; 
 }
 .why-choose-us__item {
-   display: block; 
+   display: flex; 
 }
 .why-choose-us__icon {
    justify-content: center;
