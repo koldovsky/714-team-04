@@ -1,5 +1,7 @@
 @media screen and (max-width: 755px) {
-    #aboutus, .banners {
+
+    .about,
+    .banners {
         display: flex;
         flex-flow: column wrap;
     }
@@ -8,55 +10,74 @@
 
         padding-top: 25px;
         padding-bottom: 25px;
-      
-    }
-    #aboutus, img {
 
-        border-radius: 2%;
+    }
+
+    .about,
+    img {
+
+        border-radius: 1%;
         vertical-align: baseline;
-      
+
     }
 
-    
+
 
 }
 
-#aboutus, .banners {
+#aboutus,
+.banners {
+    
     display: flex;
     flex-direction: row;
     padding-top: 45px;
     padding-bottom: 45px;
     justify-content: space-around;
-  
+
 }
 
-.about__image{
+.banners__machine {
+    background-image: url("../img/png/many-cups-and-mashine.png");
+    background-size: cover;
+    min-width: 50%;
+    
+}
+
+.banners__beans {
+    background-image: url("../img/png/girl-seeping-coffe.png");
+    background-size: cover;
+    min-width: 50%;
+
+}
+
+.about__image {
     position: relative;
-    
-}
 
-.about__text-content{
-  
-    
 }
 
 
-#aboutus, img {
+
+.about__text-content {}
+
+
+#aboutus,
+img {
 
     border-radius: 2%;
     vertical-align: baseline;
-  
+
 }
 
-#aboutus, div {
- 
+#aboutus,
+div {
+
     padding-left: 15px;
     padding-right: 15px;
 }
 
 .text-content-list {
-    display: flex;   
+    display: flex;
     align-items: flex-start;
-    
-    
+
+
 }
