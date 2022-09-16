@@ -1,5 +1,5 @@
 @media screen and (max-width: 755px) {
-    #aboutus {
+    #aboutus, .banners {
         display: flex;
         flex-flow: column wrap;
     }
@@ -17,9 +17,11 @@
       
     }
 
+    
+
 }
 
-#aboutus {
+#aboutus, .banners {
     display: flex;
     flex-direction: row;
     padding-top: 45px;
