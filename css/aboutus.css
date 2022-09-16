@@ -1,13 +1,47 @@
+@media screen and (max-width: 755px) {
+    #aboutus {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .about__image {
+
+        padding-top: 25px;
+        padding-bottom: 25px;
+      
+    }
+    #aboutus, img {
+
+        border-radius: 2%;
+        vertical-align: baseline;
+      
+    }
+
+}
+
 #aboutus {
     display: flex;
+    flex-direction: row;
     padding-top: 45px;
     padding-bottom: 45px;
+    justify-content: space-around;
   
 }
 
+.about__image{
+    position: relative;
+    
+}
+
+.about__text-content{
+  
+    
+}
+
+
 #aboutus, img {
 
-    border-radius: 1%;
+    border-radius: 2%;
     vertical-align: baseline;
   
 }
