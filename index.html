@@ -19,18 +19,18 @@
         <a href="#">
           <img src="icon/cart-icon.svg" alt="#" />
         </a>
-        <p>303 E 61st St, New York, NY 10065</p>
+        <p class="contacts-header__p">303 E 61st St, New York, NY 10065</p>
       </div>
       <div class="contacts-header__phone">
         <img src="icon/call-svgrepo-com.svg" alt="#" />
-        <a href="">+1 (234) 567 89 00</a>
+        <a class="contacts-header__p" href="">+1 (234) 567 89 00</a>
       </div>
     </div>
     <div class="main-header">
       <img src="icon/main-logo.svg" alt="" />
       <nav class="main-header__navigation">
         <a class="navigation__item" href="#aboutus">About us</a>
-        <a class="navigation__item" href="#coffemachine">Coffe machine</a>
+        <a class="navigation__item" href="#coffemachine">Coffee machine</a>
         <a class="navigation__item" href="#testimonials">Testimonials</a>
         <a class="navigation__item" href="#services">Services</a>
         <a class="navigation__item" href="#coffee">Coffee</a>
@@ -102,29 +102,33 @@
   <main>
     <section class="cover">
       <div class="cover__background">
-        <p class="cover__p-rental">RENTAL</p>
-        <h2 class="cover__title">Rent a <span class="font-color-red">Coffee</span>
-          Machine</h2>
-        <p>Need a coffee machine for commercial or home use? Get one here!</p>
-        <a class="cover__button" href="#coffemachine">Coffee Machine</a>
+        <div class="cover__content">
+          <p class="cover__p-rental">RENTAL</p>
+          <h2 class="cover__title">Rent a <span class="font-color-red">Coffee</span><br>
+            Machine</h2>
+          <p class="cover__p">Need a coffee machine for commercial or home use? Get one here!</p>
+          <a class="cover__button" href="#coffemachine">Coffee Machine</a>
+        </div>
       </div>
     </section>
     <section class="features">
-      <div class="warranty__features">
+      <div class="warranty__features features__card">
         <div class="background-icon__features">
           <img class="icon__features" src="icon/warranty.svg" alt="">
         </div>
-        <h3>Warranty Included</h3>
-        <p>Our company provides a full warranty service and all kinds of high-quality repairs.</p>
+        <div class="features__text">
+          <h3>Warranty Included</h3>
+          <p>Our company provides a full warranty service and all kinds of high-quality repairs.</p>
+        </div>
       </div>
-      <div class="delivery__features">
+      <div class="delivery__features features__card">
         <div class="background-icon__features">
           <img class="icon__features" src="icon/delivery.svg" alt="">
         </div>
         <h3>Next-Day Delivery</h3>
         <p>We deliver your coffee machine within 1 day after we conclude the rental agreement.</p>
       </div>
-      <div class="prices__features">
+      <div class="prices__features features__card">
         <div class="background-icon__features">
           <img class="icon__features" src="icon/price.svg" alt="">
         </div>
