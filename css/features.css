@@ -1,7 +1,11 @@
 .features {
-    display: grid;
+    display: flex;
     padding: 60px 0;
+    flex-direction: column;
     line-height: 1.5;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: center;
 }
 
 .background-icon__features {
@@ -22,6 +26,7 @@
     margin: 15px 15px;
     padding: 30px;
     box-sizing: border-box;
+    width: auto;
 }
 
 .icon__features {
@@ -40,17 +45,32 @@
 
 @media (min-width: 765px) {
     .features {
-        grid-template-columns: auto auto;
-        justify-self: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
     }
-/* 
-    .prices__features {
-        grid-column: 1/4;
-    } */
+
+    .features__card {
+        width: 40%;
+    }
+
+    .background-icon__features {
+        width: 70px;
+        height: 70px;
+    }
+
+    .icon__features {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .features__title {
+        font-size: 22px;
+    }
 }
 
 @media (min-width: 990px) {
     .features {
-        grid-template-columns: auto auto auto;
+        flex-wrap: nowrap;
     }
 }
