@@ -17,7 +17,6 @@
     --cl-dark-maintext: #656565;
     --cl-dark-accent: #8C8C8C;
     --cl-light: #ffffff;
-
     --cl-dark: #000000;
     --cl-red: #d41443;
     --cl-pink: #ffa5ba;
@@ -41,7 +40,6 @@ body {
     font-family: var(--font-primary);
     font-size: 14px;
     letter-spacing: 0.04em;
-    border: 1px solid red;
 }
 
 .link {
@@ -109,4 +107,5 @@ img {
 .container {
     max-width: 1400px;
     margin: auto;
+    border: 1px solid red;
 }

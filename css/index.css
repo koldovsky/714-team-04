@@ -1,13 +1,12 @@
 @import url(common.css);
-
 @import url(header.css);
 @import url(aboutus.css);
 @import url(cover.css);
 @import url(features.css);
-
-@import url(why-us.css);
-@import url(about-machine.css);
+@import url(discover-coffee-machines-we-offer.css);
 @import url(banner.css);
+@import url(meet-smik-coffee-machines.css);
+@import url(taste.css);
 @import url(franches.css);
 @import url(cta-small.css);
 @import url(testimonials.css);
