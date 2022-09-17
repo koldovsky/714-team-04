@@ -36,10 +36,22 @@
 .cover__title {
     font-family: var(--font-secondary);
     font-weight: bold;
-    font-size: 63px;
+    font-size: 48px;
     color: var(--cl-light);
 }
 
 .font-color-red {
     color: var(--cl-brand);
+}
+
+@media (min-width: 765px) {
+    .cover__background {
+        width: 1200px;
+        margin: auto;
+        justify-content: flex-start;
+    }
+
+    .cover__title {
+        font-size: 63px;
+    }
 }
