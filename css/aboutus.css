@@ -1,114 +1,107 @@
 @media screen and (min-width: 765px) {
-
-    .about,
+    .about, .banners {
+    display : grid;
+    grid-template-columns : 1fr 1fr;
+    justify-self : center;
+    }
     .banners {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        justify-self: center;
+    display : grid;
+    grid-template-columns : 1fr 1fr;
     }
-
     .about__image {
-        padding-bottom: 25px;
-        width: 100%;
+    padding-bottom : 25px;
+    width : 100%;
     }
-
-    .about,
-    img {
-
-        border-radius: 1%;
-        vertical-align: baseline;
-
+    .about, img {
+    border-radius : 1%;
+    vertical-align : baseline;
     }
-
     .about__text-content {
-        padding-top: 0px;
-        
+    padding-top : 0;
     }
-
     .about__text-content > p {
-        padding-top: 10px;
-        padding-bottom: 10px;
-        
+    padding-top : 10px;
+    padding-bottom : 10px;
     }
-
-}
-
-.about,
-.banners {
-
-    display: grid;
-    padding-top: 45px;
-    padding-bottom: 45px;
-    
-
-}
-
-.banners__machine {
-    background-image: url("../img/png/many-cups-and-mashine.png");
-    background-position: cover;
-    background-size: 100%;
-    min-width: 50%;
-    min-height: 300px;
-    border-radius: 1%;
-}
-
-.banners__beans {
-    background-image: url("../img/png/girl-seeping-coffe.png");
-    background-position: cover;
-    background-size: 100%;
-    min-width: 50%;
-    min-height: 300px;
-    border-radius: 1%;
-}
-
-.about__image {
-    width: 100%;
-    padding-bottom: 45px;
-}
-
-.about__image-image {
-    object-fit: cover;
-    width: 100%;
-}
-
-
-
-.about__text-content {
-    padding-top: 0px;
-    width: 100%;
-}
-
-.about__text-content > h1 {
-    padding-top: 15px;
-    
-}
-
-.text > h4 {
-    font-size: 16px;
-    
-}
-
-
-
-
-.aboutus,
-img {
-
-    border-radius: 2%;
-    vertical-align: baseline;
-
-}
-
-#aboutus,
-div {
-
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.text-content-list {
-    display: flex;
-    align-items: flex-start;
-
-
-}
+    }
+    .about, .banners {
+    display : grid;
+    justify-items : center;
+    padding-top : 45px;
+    padding-bottom : 45px;
+    }
+    .banners__machine, .banners__beans {
+    display : block;
+    object-fit : cover;
+    border-radius : 1%;
+    max-width : 600px;
+    position : relative;
+    margin : 10px 0 10px 0;
+    }
+    .mashine-header {
+    position : absolute;
+    top : 25%;
+    left : 30%;
+    }
+    .mashine, .girl {
+    position : relative;
+    }
+    .header_light {
+    position : absolute;
+    top : 25%;
+    left : 30%;
+    }
+    .girl-header {
+    position : absolute;
+    top : 25%;
+    left : 30%;
+    }
+    .nav__item {
+    position : absolute;
+    top : 25%;
+    left : 30%;
+    }
+    .banners__machine-divider {
+    position : absolute;
+    top : 40%;
+    left : 50%;
+    height : 2px;
+    width : 9%;
+    font-weight : 700;
+    }
+    .mashine-text {
+    position : absolute;
+    top : 50%;
+    left : 20%;
+    }
+    .about__image {
+    object-fit : cover;
+    width : 100%;
+    width : 100%;
+    padding-bottom : 45px;
+    }
+    .about__image-image {
+    object-fit : cover;
+    width : 100%;
+    }
+    .about__text-content {
+    padding-top : 0;
+    width : 100%;
+    }
+    .about__text-content > h1 {
+    padding-top : 15px;
+    }
+    .text > h4 {
+    font-size : 16px;
+    }
+    .aboutus, img {
+    border-radius : 2%;
+    }
+    .about, div {
+    padding-left : 15px;
+    padding-right : 15px;
+    }
+    .text-content-list {
+    display : flex;
+    align-items : flex-start;
+    }
