@@ -1,4 +1,4 @@
-.pricing {
+.pricing__icon {
     text-align: center;
 }
 .pricing_item {
@@ -11,8 +11,22 @@
 }
 
 .pricing_text {
-    font-size: ;
+
 }
 .pricing__subtext:before {
 
+}
+.pricing__button {
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 16px 25px;
+    border-radius: 2px;
+    color: white;
+    background-color: var(--cl-dark-header);
+    text-decoration: none;
+    cursor: pointer;
+}
+.pricing__button :hover {
+    
 }

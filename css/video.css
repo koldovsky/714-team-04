@@ -1,0 +1,13 @@
+.bg__table {
+    position: relative;
+    background: var(--cl-dark-header) url(../img/bg-table.png) no-repeat center /cover;
+    background-attachment: fixed;
+    z-index: 100;
+    width: 100%;
+}
+.video__container {
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 0;
+}
+ 
