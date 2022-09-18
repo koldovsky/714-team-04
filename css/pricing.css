@@ -1,0 +1,18 @@
+.pricing {
+    text-align: center;
+}
+.pricing_item {
+    display:flex;
+}
+
+.pricing_number {
+    font-weight: bold;
+    color:var (--cl-brand);
+}
+
+.pricing_text {
+    font-size: ;
+}
+.pricing__subtext:before {
+
+}
