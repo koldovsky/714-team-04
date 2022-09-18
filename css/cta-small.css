@@ -4,10 +4,15 @@
 
 .cta-small__title {
     color: var(--cl-light);
+    text-transform: capitalize;
+    font-size: 24px;
+    font-family: var(--font-secondary);
 }
 
 .cta-small__subtitle {
     color: var(--cl-light);
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .white-black {
