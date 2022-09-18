@@ -1,9 +1,40 @@
 .cta-small {
-    background-color: #c00407;
-    color: white;
+    background-color: var(--cl-brand);
 }
 
-h2.title {
-    font-size: 24px;
-    font-weight: 900;
+.cta-small__title {
+    color: var(--cl-light);
+}
+
+.cta-small__subtitle {
+    color: var(--cl-light);
+}
+
+.white-black {
+    color: var(--cl-dark-header);
+    padding: 16px 25px;
+    background-color: var(--cl-light);
+    text-decoration: none;
+    font-weight: 700;
+    border: 3px solid var(--cl-light);
+}
+
+.white-black:hover {
+    color: var(--cl-light);
+    background-color: var(--cl-dark-header);
+    border: 3px solid var(--cl-dark-header);
+}
+
+.red-white {
+    color: var(--cl-light);
+    padding: 16px 25px;
+    text-decoration: none;
+    font-weight: 700;
+    background-color: var(--cl-brand);
+    border: 3px solid var(--cl-light);
+}
+
+.red-white:hover {
+    color: var(--cl-dark-header);
+    background-color: var(--cl-light);
 }
