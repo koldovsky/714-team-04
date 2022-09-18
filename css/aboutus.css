@@ -134,12 +134,10 @@
 .text > h4 {
   font-size: 16px;
 }
-.aboutus,
-img {
+.aboutus {
   border-radius: 1%;
 }
-.about,
-div {
+.about {
   padding-left: 15px;
   padding-right: 15px;
 }
