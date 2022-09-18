@@ -18,6 +18,8 @@
     }
     .about__text-content {
     padding-top : 0;
+    margin-left: 20px;
+
     }
     .about__text-content > p {
     padding-top : 10px;
