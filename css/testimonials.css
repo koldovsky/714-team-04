@@ -1,8 +1,24 @@
 .testimonials__name {
-    color: #c00407;
+    color: var(--cl-brand);
+}
+
+.testimonials__title {
+    color: var(--cl-dark-header);
+}
+
+.testimonials__subtitle {
+    color: var(--cl-dark-maintext);
 }
 
 .client-name {
-    color: #c00407;
+    color: var(--cl-brand);
     font-size: 18px;
+}
+
+.feedback {
+    color: var(--cl-dark-accent);
+}
+
+.feedback-date {
+    color: var(--cl-dark-header);
 }
