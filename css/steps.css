@@ -6,7 +6,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 25px;
-    row-gap: 250px;
+    row-gap: 25px;
   }
   .steps__Item {
     width: 50%;
@@ -25,6 +25,7 @@
   }
   .steps__Item {
     width: 25%;
+    align-self: center;
   }
 }
 
@@ -40,11 +41,13 @@
   text-align: center;
 }
 
-.steps__cards {
+.steps__Item > img {
+  border-radius: 2%;
 }
 .steps__Item {
   width: 100%;
-  max-width: 650px;
+
   object-fit: cover;
   padding: 5px 5px 5px 5px;
+  align-self: center;
 }

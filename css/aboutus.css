@@ -8,8 +8,7 @@
     padding-bottom: 25px;
     width: 100%;
   }
-  .about,
-  img {
+  .about__image > img {
     border-radius: 1%;
     vertical-align: baseline;
   }
@@ -49,12 +48,20 @@
   padding-bottom: 45px;
   min-height: 300px;
 }
+
+.about__image > img {
+  border-radius: 2%;
+  vertical-align: baseline;
+}
+.text {
+  padding-left: 5px;
+}
 .banners__machine,
 .banners__beans {
   background-size: cover;
   background-position: 50% 50%;
 
-  border-radius: 1%;
+  border-radius: 2%;
 
   display: flex;
   flex-direction: column;
