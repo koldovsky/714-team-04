@@ -2,3 +2,15 @@
   display: block;
   text-align: center;
 }
+
+.clock{
+  font-family: fantasy;
+  color: darkmagenta;
+  font-size: 40px;
+}
+
+.date {
+  font-family: fantasy;
+  color: rgb(24, 194, 49);
+  font-size: 20px;
+}
