@@ -7,7 +7,7 @@
 
   @media (min-width: 800px) {
       .present-box-flex {
-          padding: 100px;
+          padding: 20px;
           display: flex;
           flex-direction: row-reverse;           
       }    
@@ -17,6 +17,14 @@
   .img-wrap{
     padding: 20px;
   }
+  
+  @media (min-width: 800px) {
+      .img-wrap{
+          padding: 0px;
+      }  
+ }
+
+  
 
 .present-box-img {
   display: block;
