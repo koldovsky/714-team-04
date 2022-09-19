@@ -1,6 +1,7 @@
 .bg__table {
     position: relative;
     background: var(--cl-dark-header) url(../img/bg-table.png) no-repeat center /cover;
+    background: linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.6) ), url(../img/bg-table.png);
     background-attachment: fixed;
     z-index: 100;
     width: 100%;
@@ -10,4 +11,10 @@
     padding-right: 0;
     border-radius: 0;
 }
- 
+ .video__text {
+    color: aliceblue;
+    font-family: var(--font-secondary);
+    font-size: 34px;
+    font-weight: 700;
+    
+ }
