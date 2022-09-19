@@ -1,12 +1,29 @@
+.faq {
+    padding: 90px 0;
+}
+
+.faq__image {
+    width: 100%;
+    max-width: 570px;
+}
+
 .faq__name {
-    color: #c00407;
+    color: var(--cl-brand);
 }
 
 .faq__title {
-    font-size: 34px !important;
-    color: #222222;
+    font-size: 34px;
+    color: var(--cl-dark-header);
 }
 
 .faq__subtitle {
-    color: #656565;
+    color: var(--cl-dark-maintext);
+}
+
+.faq-question {
+    color: var(--cl-dark-header);
+}
+
+.faq-answer {
+    color: var(--cl-dark-accent);
 }
