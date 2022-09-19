@@ -1,8 +1,23 @@
+.testimonials {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: var(--bg-grey);
+}
+
+.testimonials__titles {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 0 15px;
+}
+
 .testimonials__name {
     color: var(--cl-brand);
     font-family: var(--font-primary);
     text-transform: uppercase;
     font-size: 12px;
+    padding: 0;
 }
 
 .testimonials__title {
@@ -11,6 +26,7 @@
     text-transform: capitalize;
     font-size: 34px;
     line-height: 40.8px;
+    padding: 0;
 }
 
 .testimonials__subtitle {
@@ -18,6 +34,8 @@
     font-family: var(--font-primary);
     font-size: 18px;
     line-height: 27px;
+    padding: 0;
+    margin: 0;
 }
 
 .client-name {
@@ -40,4 +58,25 @@
     font-family: var(--font-primary);
     font-size: 12px;
     font-weight: 700;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 45px;
+}
+
+.review {
+    padding: 0 15px;
+    max-width: 220px;
+}
+
+.review img {
+    width: 70px;
+}
+
+.arrow-to-left {
+    transform: scale(-1, 1);
 }

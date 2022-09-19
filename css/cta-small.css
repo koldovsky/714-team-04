@@ -62,3 +62,13 @@
     color: var(--cl-dark-header);
     background-color: var(--cl-light);
 }
+
+@media (min-width: 375px) {
+    .cta-small__buttons {
+        flex-direction: row;
+    }
+
+    .red-white {
+        margin-left: 25px;
+    }
+}
