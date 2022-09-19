@@ -59,6 +59,19 @@
     font-weight: 700;
 }
 
+.reviews {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 45px;
+}
+
 .review {
     padding: 0 15px;
+    max-width: 220px;
+}
+
+.review img {
+    width: 70px;
 }
