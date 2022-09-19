@@ -1,9 +1,6 @@
 .why-choose-us {
    display: flex; 
 }
-.why-choose-us__item {
-   display: flex; 
-}
 .why-choose-us__icon {
    justify-content: center;
    width: 20px;

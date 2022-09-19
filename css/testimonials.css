@@ -1,8 +1,43 @@
 .testimonials__name {
-    color: #c00407;
+    color: var(--cl-brand);
+    font-family: var(--font-primary);
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.testimonials__title {
+    color: var(--cl-dark-header);
+    font-family: var(--font-secondary);
+    text-transform: capitalize;
+    font-size: 34px;
+    line-height: 40.8px;
+}
+
+.testimonials__subtitle {
+    color: var(--cl-dark-maintext);
+    font-family: var(--font-primary);
+    font-size: 18px;
+    line-height: 27px;
 }
 
 .client-name {
-    color: #c00407;
+    color: var(--cl-brand);
+    font-family: var(--font-secondary);
+    font-weight: 600;
     font-size: 18px;
+}
+
+.feedback {
+    color: var(--cl-dark-accent);
+    font-family: var(--font-primary);
+    font-size: 16px;
+    line-height: 25.6px;
+    font-style: italic;
+}
+
+.feedback-date {
+    color: #6a6c6b;
+    font-family: var(--font-primary);
+    font-size: 12px;
+    font-weight: 700;
 }
