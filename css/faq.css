@@ -1,10 +1,11 @@
 .faq {
-    padding: 90px 0;
+    padding: 90px 15px;
 }
 
 .faq__image {
     width: 100%;
     max-width: 570px;
+    border-radius: 6px;
 }
 
 .faq__name {
