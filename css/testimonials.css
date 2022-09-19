@@ -1,6 +1,7 @@
 .testimonials {
     padding-top: 90px;
     padding-bottom: 90px;
+    background-color: var(--bg-grey);
 }
 
 .testimonials__titles {
@@ -74,4 +75,8 @@
 
 .review img {
     width: 70px;
+}
+
+.arrow-to-left {
+    transform: scale(-1, 1);
 }
