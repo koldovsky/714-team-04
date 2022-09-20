@@ -41,6 +41,7 @@
 }
 
 .font-color-red {
+    font-size: 48px;
     color: var(--cl-brand);
 }
 
@@ -52,6 +53,9 @@
     }
 
     .cover__title {
+        font-size: 63px;
+    }
+    .font-color-red {
         font-size: 63px;
     }
 }
