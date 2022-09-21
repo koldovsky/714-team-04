@@ -72,3 +72,27 @@
         margin-left: 25px;
     }
 }
+
+@media (min-width: 768px) {
+    .cta-small__container {
+        display: flex;
+    }
+
+    .cta-small__buttons {
+        margin-top: 0;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .red-white {
+        margin-left: 0;
+    }
+
+    .cta-small__titles {
+        margin-right: 40px;
+    }
+
+    .white-black {
+        margin-right: 20px;
+    }
+}
