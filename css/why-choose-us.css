@@ -3,17 +3,20 @@
    flex-wrap: wrap;
    color: #ffff;
 }
+.why-choose-us__items{
+   justify-content: center;
+}
 .why-choose-us__item-first{
    background-color: var(--cl-brand);
 }
 .why-choose-us__item-second{
-   background-color: var(--cl-brand);
+   background-color:#b20306;
 }
 .why-choose-us__item-third{
-   background-color: var(--cl-brand);
+   background-color:#a40407 ;
 }
 .why-choose-us__item-fourth{
-   background-color: var(--cl-brand);
+   background-color: #990205;
 }
 .why-choose-us__icon {
    justify-content: center;
@@ -25,6 +28,15 @@
    font-size: 32px;
    font-weight: 900;
    color:var (--cl-light);
+}
+.why-choose-us__number:after {
+   content: "";
+   display:grid;
+   width: 35px;
+   height: 2px;
+   margin: 5px;
+
+   background-color: #cb5456;
 }
 
 .why-choose-us__content {

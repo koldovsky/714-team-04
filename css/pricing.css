@@ -44,9 +44,6 @@
 
     background-color: var(--cl-brand);
 }
-.pricing__subtext{
-
-}
 .pricing__list-text p {
     display:inline;
 }
