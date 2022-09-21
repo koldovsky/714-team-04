@@ -1,6 +1,7 @@
 .why-choose-us {
    display: flex; 
    flex-wrap: wrap;
+   color:var (--cl-light);
 }
 .why-choose-us__icon {
    justify-content: center;
@@ -24,4 +25,32 @@
 }
 .why-choose-us__text {
    box-sizing: border-box;
+
+}
+
+@media (min-width: 770px) {
+   .why-choose-us__item {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 75%;
+      padding: 0px 15px;
+   }
+
+   .why-choose-us__icon {
+       width: 40px;
+       height: 40px;
+   }
+}
+
+@media (min-width: 990px) {
+   .why-choose-us__item {
+      max-width: 100%;
+   }
+}
+
+@media (max-width: 769px) {
+   .pricing__icon {
+       width: 26px;
+       height: 26px;
+   }
 }
