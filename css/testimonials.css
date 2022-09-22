@@ -9,7 +9,7 @@
     flex-direction: column;
     text-align: center;
     align-items: center;
-    padding: 0 15px;
+    padding: 0 30px;
 }
 
 .testimonials__name {
@@ -27,6 +27,7 @@
     font-size: 34px;
     line-height: 40.8px;
     padding: 0;
+    margin-top: 20px;
 }
 
 .testimonials__subtitle {
@@ -36,6 +37,7 @@
     line-height: 27px;
     padding: 0;
     margin: 0;
+    margin-top: 15px;
 }
 
 .client-name {
