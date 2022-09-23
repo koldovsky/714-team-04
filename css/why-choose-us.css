@@ -1,22 +1,27 @@
 .why-choose-us {
-   display: flex; 
-   flex-wrap: wrap;
+   display: grid;
+   width: 100%;
+   max-width: 1200px;
    color: #ffff;
 }
-.why-choose-us__items{
-   justify-content: center;
+   .why-choose-us__items{
+      display: grid;
 }
 .why-choose-us__item-first{
    background-color: var(--cl-brand);
+   margin: 0 0 20px 0;
 }
 .why-choose-us__item-second{
    background-color:#b20306;
+   margin: 0 0 20px 0;
 }
 .why-choose-us__item-third{
-   background-color:#a40407 ;
+   background-color:#a40407;
+   margin: 0 0 20px 0;
 }
 .why-choose-us__item-fourth{
    background-color: #990205;
+   margin: 0 0 20px 0;
 }
 .why-choose-us__icon {
    justify-content: center;
@@ -53,10 +58,7 @@
 
 @media (min-width: 770px) {
    .why-choose-us__items {
-      display: flex;
-      flex-wrap: wrap;
-      max-width: 75%;
-      padding: 0px 15px;
+      grid-template-columns: 1fr 1fr;
    }
 
    .why-choose-us__icon {
@@ -69,8 +71,10 @@
    .why-choose-us__items {
       max-width: 100%;
    }
+   .why-choose-us__items {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+   }
 }
-
 @media (max-width: 769px) {
    .pricing__icon {
        width: 26px;
