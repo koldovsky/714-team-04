@@ -106,6 +106,6 @@ img {
 
 .container {
     max-width: 1200px;
-    margin: auto;
-    border: 1px solid red;
+    margin: 0 auto;
+    padding: 0 24px;
 }
