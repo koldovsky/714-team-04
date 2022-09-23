@@ -1,11 +1,10 @@
 .why-choose-us {
-   display: grid;
-   width: 100%;
-   max-width: 1200px;
+
    color: #ffff;
 }
    .why-choose-us__items{
       display: grid;
+      width: 100%;
 }
 .why-choose-us__item-first{
    background-color: var(--cl-brand);
