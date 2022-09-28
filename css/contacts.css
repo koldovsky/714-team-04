@@ -27,3 +27,12 @@
 .background__contacts {
     background: #FFFFFF;
 }
+
+.form-contacts {
+    background-color: var(--white-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 320px;
+}
