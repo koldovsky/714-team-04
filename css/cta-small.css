@@ -1,5 +1,6 @@
 .cta-small__container {
     padding: 0 24px;
+    justify-content: center;
 }
 
 .cta-small {
