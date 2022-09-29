@@ -32,6 +32,9 @@
     font-family: var(--font-primary);
     font-weight: bold;
 }
+.cover__button:hover {
+    background-color: var(--cl-dark-header);
+}
 
 .cover__title {
     font-family: var(--font-secondary);

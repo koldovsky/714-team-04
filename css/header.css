@@ -3,10 +3,29 @@
     font-size: 14px;
     margin: 15px;
     font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.contacts-header-fix {
+    padding: 5px 40px;
+}
+
+.navigation__item:hover {
+    color: var(--cl-brand);
 }
 
 .main-header {
     padding: 30px 40px;
+}
+
+.outer_bDW {
+    color: var(--cl-brand);
+    fill: currentColor;
+}
+
+.filled_Qbi:hover .outer_bDW{
+    color: #f20509;
+    fill: currentColor;  
 }
 
 .header__burger {
@@ -55,9 +74,20 @@
 
 .contacts-header__p-burger {
     margin: 15px 0;
+    color: var(--cl-dark-header);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.contacts-header__p {
+    margin-left: 20px;
 }
 
 @media (min-width: 990px) {
+    .contacts-header-fix {
+        padding: 5px 0;
+    }
+
     .contacts-header__location-burger {
         display: none;
     }
