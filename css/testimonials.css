@@ -85,5 +85,5 @@
 }
 
 .arrow-btn:hover {
-    fill: black;
+    cursor: pointer;
 }

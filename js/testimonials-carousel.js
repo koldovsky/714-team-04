@@ -29,9 +29,12 @@ const clients = [
     },
 ] 
 
-let review = document.querySelector('.review');
+let reviewContainer = document.querySelector('.review-container');
 
 function reviewRender(id) {
+    let review = document.createElement("div");
+    review.classList.add("review");
+
     let reviewPic = document.createElement("img");
     reviewPic.src = clients[id].picture;
     reviewPic.alt = "Clients Picture";
@@ -50,8 +53,8 @@ function reviewRender(id) {
     reviewDate.innerHTML = clients[id].date;
     console.log(reviewDate);
 
+    reviewContainer.append(review);
     review.append(reviewPic);
-    console.log(review);
     review.append(reviewName);
     review.append(reviewText);
     review.append(reviewDate);
@@ -59,3 +62,21 @@ function reviewRender(id) {
 
 let currentReviewId = 0;
 reviewRender(currentReviewId);
+
+const arrowToRight = document.querySelector('.arrow-to-right');
+arrowToRight.addEventListener("click", reviewChangingToRight);
+
+const arrowToLeft = document.querySelector('.arrow-to-left');
+arrowToLeft.addEventListener("click", reviewChangingToLeft);
+
+function reviewChangingToRight() {
+    reviewContainer.innerHTML = "";
+    currentReviewId === clients.length - 1 ? currentReviewId = 0 : currentReviewId++;
+    reviewRender(currentReviewId);
+}
+
+function reviewChangingToLeft() {
+    reviewContainer.innerHTML = "";
+    currentReviewId === 0 ? currentReviewId = clients.length - 1 : currentReviewId--;
+    reviewRender(currentReviewId);
+}
