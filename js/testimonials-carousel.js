@@ -27,7 +27,7 @@ const clients = [
         feedback: "We have been cooperating with this company for 2 years already, and during this time, not a single problem situation has arisen. The service is fast, the coffee is delivered without delay, the prices for coffee machine rental are very low.",
         date: "March 22, 2021",
     },
-] 
+]
 
 let reviewContainer = document.querySelector('.review-container');
 
@@ -46,14 +46,12 @@ function reviewRender(id) {
     let reviewText = document.createElement("q");
     reviewText.classList.add("feedback");
     reviewText.innerHTML = clients[id].feedback;
-    console.log(reviewText);
 
     let reviewDate = document.createElement("p");
     reviewDate.classList.add("feedback-date");
     reviewDate.innerHTML = clients[id].date;
-    console.log(reviewDate);
 
-    reviewContainer.append(review);
+    reviewContainer.appendChild(review);
     review.append(reviewPic);
     review.append(reviewName);
     review.append(reviewText);
@@ -61,22 +59,27 @@ function reviewRender(id) {
 }
 
 let currentReviewId = 0;
-reviewRender(currentReviewId);
+for (let i = currentReviewId; i < clients.length; i++) {
+    reviewRender(i);
+}
+let width;
 
-const arrowToRight = document.querySelector('.arrow-to-right');
-arrowToRight.addEventListener("click", reviewChangingToRight);
-
-const arrowToLeft = document.querySelector('.arrow-to-left');
-arrowToLeft.addEventListener("click", reviewChangingToLeft);
-
-function reviewChangingToRight() {
-    reviewContainer.innerHTML = "";
-    currentReviewId === clients.length - 1 ? currentReviewId = 0 : currentReviewId++;
-    reviewRender(currentReviewId);
+function init() {
+    width = document.querySelector('.slider').offsetWidth;
+    reviewContainer.style.width = width * clients.length + 'px';
+    console.log(width);
 }
 
-function reviewChangingToLeft() {
-    reviewContainer.innerHTML = "";
-    currentReviewId === 0 ? currentReviewId = clients.length - 1 : currentReviewId--;
-    reviewRender(currentReviewId);
+window.addEventListener('resize', init);
+init();
+
+
+const arrowToRight = document.querySelector('.arrow-to-right');
+arrowToRight.addEventListener("click", function() {
+    currentReviewId++;
+    rollSlider();
+});
+
+function rollSlider() {
+    reviewContainer.style.transform = 'translate(-'+currentReviewId * width + 'px)';
 }

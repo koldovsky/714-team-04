@@ -87,3 +87,15 @@
 .arrow-btn:hover {
     cursor: pointer;
 }
+
+.review-container {
+    display: flex;
+    /* background: orangered; */
+    transition: all ease 500ms;
+}
+
+.slider {
+    /* border: 2px solid black; */
+    max-width: 80%;
+    overflow: hidden;
+}
