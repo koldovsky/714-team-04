@@ -68,6 +68,7 @@ function init() {
     width = document.querySelector('.slider').offsetWidth;
     reviewContainer.style.width = width * clients.length + 'px';
     console.log(width);
+    rollSlider();
 }
 
 window.addEventListener('resize', init);
@@ -76,8 +77,18 @@ init();
 
 const arrowToRight = document.querySelector('.arrow-to-right');
 arrowToRight.addEventListener("click", function() {
-    currentReviewId++;
-    rollSlider();
+    if (currentReviewId < clients.length - 1) {
+        currentReviewId++;
+        rollSlider();
+    }
+});
+
+const arrowToLeft = document.querySelector('.arrow-to-left');
+arrowToLeft.addEventListener("click", function() {
+    if (currentReviewId > 0) {
+        currentReviewId--;
+        rollSlider();
+    }
 });
 
 function rollSlider() {

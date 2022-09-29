@@ -91,7 +91,7 @@
 .review-container {
     display: flex;
     /* background: orangered; */
-    transition: all ease 500ms;
+    transition: all ease 1000ms;
 }
 
 .slider {
