@@ -1,5 +1,6 @@
 .cta-small__container {
     padding: 0 24px;
+    justify-content: center;
 }
 
 .cta-small {
@@ -76,6 +77,9 @@
 @media (min-width: 768px) {
     .cta-small__container {
         display: flex;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: auto;
     }
 
     .cta-small__buttons {
