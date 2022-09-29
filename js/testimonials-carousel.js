@@ -57,4 +57,5 @@ function reviewRender(id) {
     review.append(reviewDate);
 }
 
-reviewRender(2);
+let currentReviewId = 0;
+reviewRender(currentReviewId);

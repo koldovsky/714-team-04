@@ -83,3 +83,7 @@
 .arrow-to-right {
     transform: scale(-1, 1);
 }
+
+.arrow-btn:hover {
+    fill: black;
+}
