@@ -1049,49 +1049,37 @@
           </p>
         </div>
         <div class="reviews">
-          <svg width="30" class="arrow-to-left" viewBox="0 0 30 30">
-            <defs>
-              <path
-                d="M19.533 15l-9.1-9.45c-.577-.6-.577-1.5 0-2.1.578-.6 1.445-.6 2.023 0l10.11 10.5c.29.3.434.75.434 1.05 0 .45-.144.75-.433 1.05l-10.111 10.5c-.29.3-.578.45-1.012.45-.433 0-.722-.15-1.01-.45-.578-.6-.578-1.5 0-2.1l9.1-9.45z"
-                id="a-1662455503113"></path>
-            </defs>
-            <use fill-rule="nonzero" opacity=".8" xlink:href="#a-1662455503113"></use>
-          </svg>
-          <div class="review">
-            <img src="img/josh_mendel.png" alt="Clients Picture">
-            <p class="client-name">Josh Mendel</p>
-            <q class="feedback">I really love to drink coffee in the morning, but I hate making
-              it. Therefore, I decided to rent a coffee machine from this
-              company. I am very pleased with the service - everything was done
-              quickly, they brought and set up the coffee machine.</q>
-            <p class="feedback-date">December 15, 2021</p>
+          <img class="arrow-to-left" src="/img/arrow.svg" alt="Arrow Button" width="30">
+          <div class="review-container">
+            <div class="review">
+              <img src="img/josh_mendel.png" alt="Clients Picture">
+              <p class="client-name">Josh Mendel</p>
+              <q class="feedback">I really love to drink coffee in the morning, but I hate making
+                it. Therefore, I decided to rent a coffee machine from this
+                company. I am very pleased with the service - everything was done
+                quickly, they brought and set up the coffee machine.</q>
+              <p class="feedback-date">December 15, 2021</p>
+            </div>
+            <!-- <div class="review">
+              <img src="img/jessica_malacks.png" alt="Clients Picture">
+              <p class="client-name">Jessica Malacks</p>
+              <q class="feedback">We have renovated the office kitchen and decided to delight our
+                employees with automatic coffee machine. However, such equipment
+                is very expensive. So, we simply rented coffee machine from this
+                company and were completely satisfied.</q>
+              <p class="feedback-date">February 10, 2022</p>
+            </div>
+            <div class="review">
+              <img src="img/daniella_williamson.png" alt="Clients Picture">
+              <p class="client-name">Daniella Williamson</p>
+              <q class="feedback">When I opened a coffee shop, I couldn't find an affordable coffee
+                machine. Finally, I found this company and I am grateful for their
+                excellent advice. They helped with the choice of the coffee
+                machine and regularly deliver coffee beans and cups.</q>
+              <p class="feedback-date">March 04, 2022</p>
+            </div> -->
           </div>
-          <div class="review">
-            <img src="img/jessica_malacks.png" alt="Clients Picture">
-            <p class="client-name">Jessica Malacks</p>
-            <q class="feedback">We have renovated the office kitchen and decided to delight our
-              employees with automatic coffee machine. However, such equipment
-              is very expensive. So, we simply rented coffee machine from this
-              company and were completely satisfied.</q>
-            <p class="feedback-date">February 10, 2022</p>
-          </div>
-          <div class="review">
-            <img src="img/daniella_williamson.png" alt="Clients Picture">
-            <p class="client-name">Daniella Williamson</p>
-            <q class="feedback">When I opened a coffee shop, I couldn't find an affordable coffee
-              machine. Finally, I found this company and I am grateful for their
-              excellent advice. They helped with the choice of the coffee
-              machine and regularly deliver coffee beans and cups.</q>
-            <p class="feedback-date">March 04, 2022</p>
-          </div>
-          <svg width="30" class="arrow-to-right" viewBox="0 0 30 30">
-            <defs>
-              <path
-                d="M19.533 15l-9.1-9.45c-.577-.6-.577-1.5 0-2.1.578-.6 1.445-.6 2.023 0l10.11 10.5c.29.3.434.75.434 1.05 0 .45-.144.75-.433 1.05l-10.111 10.5c-.29.3-.578.45-1.012.45-.433 0-.722-.15-1.01-.45-.578-.6-.578-1.5 0-2.1l9.1-9.45z"
-                id="a-1662455503114"></path>
-            </defs>
-            <use fill-rule="nonzero" opacity=".8" xlink:href="#a-1662455503113"></use>
-          </svg>
+          <img class="arrow-to-right" src="/img/arrow.svg" alt="Arrow Button" width="30">
         </div>
       </section>
       <section class="faq">
@@ -1181,9 +1169,11 @@
           <form class="form__info__contacts" action="#" id="form-contact" method="POST">
             <ul>
               <li><input class="form__info" type="text" name="name" placeholder="Enter your full name*" required></li>
-              <li><input class="form__info" type="text" name="phone" placeholder="Enter your phone number*" required></li>
+              <li><input class="form__info" type="text" name="phone" placeholder="Enter your phone number*" required>
+              </li>
               <li><input class="form__info" type="text" name="email" placeholder="Enter your e-mail*" required></li>
-              <li><textarea class="form__info" name="message" id="info__message" cols="30" rows="10" placeholder="Type your message" required></textarea></li>
+              <li><textarea class="form__info" name="message" id="info__message" cols="30" rows="10"
+                  placeholder="Type your message" required></textarea></li>
               <li><input class="form__info__button" type="submit" value="Request a Quote"></li>
             </ul>
           </form>

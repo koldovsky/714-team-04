@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* border: 1px solid red; */
 }
 
 :root {
@@ -12,7 +13,7 @@
     --font-primary: 'Roboto', sans-serif;
     --font-secondary: 'Poppins', sans-serif;
 
-    --cl-brand: #C00407;
+    --cl-brand: rgb(192, 4, 7);
     --cl-dark-header: #222222;
     --cl-dark-maintext: #656565;
     --cl-dark-accent: #8C8C8C;
