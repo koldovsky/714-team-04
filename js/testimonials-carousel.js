@@ -27,11 +27,14 @@ const clients = [
         feedback: "We have been cooperating with this company for 2 years already, and during this time, not a single problem situation has arisen. The service is fast, the coffee is delivered without delay, the prices for coffee machine rental are very low.",
         date: "March 22, 2021",
     },
-] 
+]
 
-let review = document.querySelector('.review');
+let reviewContainer = document.querySelector('.review-container');
 
 function reviewRender(id) {
+    let review = document.createElement("div");
+    review.classList.add("review");
+
     let reviewPic = document.createElement("img");
     reviewPic.src = clients[id].picture;
     reviewPic.alt = "Clients Picture";
@@ -43,19 +46,69 @@ function reviewRender(id) {
     let reviewText = document.createElement("q");
     reviewText.classList.add("feedback");
     reviewText.innerHTML = clients[id].feedback;
-    console.log(reviewText);
 
     let reviewDate = document.createElement("p");
     reviewDate.classList.add("feedback-date");
     reviewDate.innerHTML = clients[id].date;
-    console.log(reviewDate);
 
+    reviewContainer.appendChild(review);
     review.append(reviewPic);
-    console.log(review);
     review.append(reviewName);
     review.append(reviewText);
     review.append(reviewDate);
 }
 
 let currentReviewId = 0;
-reviewRender(currentReviewId);
+for (let i = currentReviewId; i < clients.length; i++) {
+    reviewRender(i);
+}
+
+let width;
+let visibleReviews = 1;
+
+function init() {
+    width = document.querySelector('.slider').offsetWidth;
+    if (document.documentElement.clientWidth < 768) {
+        console.log(document.documentElement.clientWidth);
+        console.log("visibleReviews = " + visibleReviews);
+        visibleReviews = 1;
+        reviewContainer.style.width = width * clients.length / visibleReviews + 'px';
+    } else if (document.documentElement.clientWidth >= 768 && document.documentElement.clientWidth < 1024) {
+        console.log(document.documentElement.clientWidth);
+        visibleReviews = 2;
+        console.log("visibleReviews = " + visibleReviews);
+        reviewContainer.style.width = width * clients.length / visibleReviews + 'px';
+    } else if (document.documentElement.clientWidth >= 1024) {
+        console.log(document.documentElement.clientWidth);
+        visibleReviews = 3;
+        console.log("visibleReviews = " + visibleReviews);
+        reviewContainer.style.width = width * clients.length / visibleReviews + 'px';
+    }
+    rollSlider();
+}
+
+window.addEventListener('resize', init);
+init();
+
+// flipping carousel to right
+const arrowToRight = document.querySelector('.arrow-to-right');
+arrowToRight.addEventListener("click", function() {
+    if (currentReviewId < clients.length - visibleReviews) {
+        currentReviewId++;
+        rollSlider();
+    }
+});
+
+// flipping carousel to left
+const arrowToLeft = document.querySelector('.arrow-to-left');
+arrowToLeft.addEventListener("click", function() {
+    if (currentReviewId > 0) {
+        currentReviewId--;
+        rollSlider();
+    }
+});
+
+function rollSlider() {
+    const reviewWidth = document.querySelector('.review').offsetWidth;
+    reviewContainer.style.transform = 'translate(-'+currentReviewId * reviewWidth + 'px)';
+}
