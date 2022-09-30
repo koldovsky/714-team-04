@@ -89,13 +89,15 @@
 }
 
 .review-container {
-    display: flex;
-    /* background: orangered; */
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     transition: all ease 1000ms;
 }
 
 .slider {
     /* border: 2px solid black; */
     max-width: 80%;
+    max-width: 1200px;
     overflow: hidden;
 }
