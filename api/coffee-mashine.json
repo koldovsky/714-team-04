@@ -1,0 +1,47 @@
+[
+    {
+        "id":1,
+        "title":"FROST Coffee Machine",
+        "availability":"In stock",
+        "code":18,
+        "prise":199,
+        "description":"It is a simple and convenient coffee machine for your home or office. It will provide you with a consistently tasty drink at any time of the day.",
+        "characteristics":["1 Cup.", "Steam button.", "Adjustable milk temperature and texture level."]
+    },
+    {
+        "id":2,
+        "title":"SMIK 2 Coffee Machine",
+        "availability":"In stock",
+        "code":20,
+        "prise":299,
+        "description":"Convenient automatic coffee machine for home and office.",
+        "characteristics":["8 drink options.", "One-touch self-cleaning system.", "2 cups.", "Available in Red or White."]
+    },
+    {
+        "id":3,
+        "title":"ORGANIC Coffee Machine",
+        "availability":"In stock",
+        "code":21,
+        "prise":299,
+        "description":"An automatic coffee machine that will perfectly brew any coffee for you.",
+        "characteristics":["Up to 10 drink options.", "Self-leaning system.", "1 cup at a time", "Can make 100 drinks per hour"]
+    },
+    {
+        "id":4,
+        "title":"SMIK Coffee Machine",
+        "availability":"In stock",
+        "code":19,
+        "prise":199,
+        "description":"Excellent style and excellent quality by the famous manufacturer!",
+        "characteristics":["Stainless steel cup holder.", "Removable drip-tray for cups.", "3 filters included (1 cup, 2 cups, paper pods).", "Flow stop function.", "Steam option."]
+    },
+    {
+        "id":5,
+        "title":"La Spezia Coffee Machine",
+        "availability":"In stock",
+        "code":22,
+        "prise":499,
+        "description":"An excellent coffee machine for professional use in an office, cafe, or restaurant.",
+        "characteristics":["Programable automatic dose setting.", "2x pressure gauge for boiler & pump.", "Temperature boost function."]
+    }
+]

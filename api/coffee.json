@@ -1,0 +1,61 @@
+[
+    {
+        "id":1,
+        "title":"Classico",
+        "availability":"In stock",
+        "code":26,
+        "prise":4.5,
+        "description":"Everyone will love this classic blend. It's a great option for every day for home or office brewing.",
+        "aroma":"sweet and honey; bright notes of vanilla, honey, hazelnuts and marzipan.",
+        "taste":"juicy, sparkling; distinct notes of red cherry, lime, grenadine, and fruit pits.",
+        "body":"slightly below average density; the texture is very pleasant, silky, and velvety."
+    },
+    {
+        "id":2,
+        "title":"Intenso",
+        "availability":"In stock",
+        "code":27,
+        "prise":5,
+        "description":"Ideal coffee for those who find it difficult to wake up in the morning. With a cup of such coffee, the mornings will always be cheerful!",
+        "aroma":"very intense and sweet; notes of white grapes, black tea, red berries, and light notes of cream.",
+        "taste":"very clean and pronounced; with distinct notes of apricot, ripe juicy cherries, milk chocolate, and toffee.",
+        "body":"Medium, round, astringent, slightly velvety.",
+        "aftertaste":"long-lasting, slightly tart; notes of nuts, dark chocolate, and light notes of citrus zest."
+    },
+    {
+        "id":3,
+        "title":"Espresso",
+        "availability":"In stock",
+        "code":24,
+        "prise":4.5,
+        "description":"A classic espresso that will wake you up early in the morning. Fruity notes add freshness to this blend.",
+        "aroma":"very intense, sweet and slightly spicy; distinct notes of chocolate liqueur, cream, and peach.",
+        "taste":"very fruity with high sweetness and complex acidity, expressed by notes of blackberry, pineapple, and passionfruit.",
+        "body":"very velvety and silky, medium in density.",
+        "aftertaste":"long-lasting and soft, expressed by bright notes of milk chocolate, blueberries, and dark rum."
+    },
+    {
+        "id":4,
+        "title":"Decaf",
+        "availability":"In stock",
+        "code":28,
+        "prise":4.5,
+        "description":"Great choice for those who are looking for a decaf coffee of middle density.",
+        "aroma":"Distinct notes of peanuts, baked bread, pleasant malic acidity, and sweetness.",
+        "taste":"sweet baked apple, bready notes and light notes of toasted nuts.",
+        "body":"slightly below average density; the texture is light and tea-like.",
+        "aftertaste":"below average, pleasant but not long-lasting; notes of dark caramel."
+    },
+    {
+        "id":5,
+        "title":"Mocha",
+        "availability":"In stock",
+        "code":25,
+        "prise":5,
+        "description":"It's a medium-roasted coffee with just the right chocolaty richness. Great for your lazy mornings!",
+        "aroma":"sweet, slightly spicy; expressed by notes of caramel and dark chocolate.",
+        "taste":"dense, full-bodied and very pleasant; distinct notes of spices, dark chocolate, and walnut.",
+        "body":"Above average firmness, pleasant texture, round, and viscous.",
+        "Aftertaste":"persistent, pleasant, but not very rich; notes of cocoa and roasted nuts."
+    }
+]
