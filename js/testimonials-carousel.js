@@ -111,4 +111,4 @@ arrowToLeft.addEventListener("click", function() {
 function rollSlider() {
     const reviewWidth = document.querySelector('.review').offsetWidth;
     reviewContainer.style.transform = 'translate(-'+currentReviewId * reviewWidth + 'px)';
-}
+}translate(-'+currentReviewId * reviewWidth + 'px)
