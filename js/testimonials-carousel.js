@@ -64,17 +64,26 @@ for (let i = currentReviewId; i < clients.length; i++) {
 }
 
 let width;
+let visibleReviews = 1;
 
 function init() {
     width = document.querySelector('.slider').offsetWidth;
     if (document.documentElement.clientWidth < 768) {
-        reviewContainer.style.width = width * clients.length + 'px';
-    } else if (document.documentElement.clientWidth < 1024) {
-        reviewContainer.style.width = width * clients.length / 2 + 'px';
+        console.log(document.documentElement.clientWidth);
+        console.log("visibleReviews = " + visibleReviews);
+        visibleReviews = 1;
+        reviewContainer.style.width = width * clients.length / visibleReviews + 'px';
+    } else if (document.documentElement.clientWidth >= 768 && document.documentElement.clientWidth < 1024) {
+        console.log(document.documentElement.clientWidth);
+        visibleReviews = 2;
+        console.log("visibleReviews = " + visibleReviews);
+        reviewContainer.style.width = width * clients.length / visibleReviews + 'px';
     } else if (document.documentElement.clientWidth >= 1024) {
-        reviewContainer.style.width = width * clients.length / 3 + 'px';
+        console.log(document.documentElement.clientWidth);
+        visibleReviews = 3;
+        console.log("visibleReviews = " + visibleReviews);
+        reviewContainer.style.width = width * clients.length / visibleReviews + 'px';
     }
-    console.log(document.documentElement.clientWidth);
     rollSlider();
 }
 
@@ -84,7 +93,7 @@ init();
 // flipping carousel to right
 const arrowToRight = document.querySelector('.arrow-to-right');
 arrowToRight.addEventListener("click", function() {
-    if (currentReviewId < clients.length - 1) {
+    if (currentReviewId < clients.length - visibleReviews) {
         currentReviewId++;
         rollSlider();
     }
@@ -100,5 +109,6 @@ arrowToLeft.addEventListener("click", function() {
 });
 
 function rollSlider() {
-    reviewContainer.style.transform = 'translate(-'+currentReviewId * width + 'px)';
+    const reviewWidth = document.querySelector('.review').offsetWidth;
+    reviewContainer.style.transform = 'translate(-'+currentReviewId * reviewWidth + 'px)';
 }
