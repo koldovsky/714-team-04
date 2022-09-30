@@ -68,6 +68,8 @@ let visibleReviews = 1;
 
 function init() {
     width = document.querySelector('.slider').offsetWidth;
+    console.log("resize");
+    console.log("currentReviewId = " + currentReviewId);
     if (document.documentElement.clientWidth < 768) {
         console.log(document.documentElement.clientWidth);
         console.log("visibleReviews = " + visibleReviews);
@@ -108,7 +110,16 @@ arrowToLeft.addEventListener("click", function() {
     }
 });
 
+// function rollSlider() {
+//     const reviewWidth = document.querySelector('.review').offsetWidth;
+//     reviewContainer.style.transform = 'translate(-'+currentReviewId * reviewWidth + 'px)';
+// }
+
+
 function rollSlider() {
     const reviewWidth = document.querySelector('.review').offsetWidth;
-    reviewContainer.style.transform = 'translate(-'+currentReviewId * reviewWidth + 'px)';
-}translate(-'+currentReviewId * reviewWidth + 'px)
+    reviewContainer.style.left = -reviewWidth * currentReviewId + 'px';
+    console.log("reviewContainer.style.left = " + reviewContainer.style.left);
+    console.log("reviewWidth = " + reviewWidth);
+    console.log("width = " + width);
+}

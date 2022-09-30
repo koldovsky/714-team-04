@@ -93,6 +93,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     transition: all ease 1000ms;
+    position: relative;
+    left: 0;
 }
 
 .slider {
