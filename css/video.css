@@ -13,12 +13,22 @@
     border-radius: 0;
 
 }
+
+.video_href {
+    padding: 0px 240px;
+    font-family: var(--font-primary);
+    font-size: 12px;
+    text-transform: uppercase;
+    color: var(--cl-brand);
+}
+
  .video__text {
     color: #fff;
     font-family: var(--font-secondary);
     font-size: 68px;
     font-weight: 700;
-    margin: 30px 60px;
+    margin: 0px 240px;
+    display: flex;
  }
 
  .video__icon-play {
@@ -28,4 +38,6 @@
  
  .video__text-link {
     color: #fff;
+    font-size: 18px;
+    margin: 10px;
  }
