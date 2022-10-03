@@ -1,20 +1,31 @@
 .bg__table {
     position: relative;
-    background: var(--cl-dark-header) url(../img/bg-table.png) no-repeat center /cover;
-    background: linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.6) ), url(../img/bg-table.png);
+    background-size: 100%;
+    background: var(--cl-dark-header) url(../img/bg-table.jpg) no-repeat center /cover;
+    background: linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.6) ), url(../img/bg-table.jpg);
     background-attachment: fixed;
+    padding: 195px 0px 200px;
     z-index: 100;
-    width: 100%;
 }
 .video__container {
     padding-left: 0;
     padding-right: 0;
     border-radius: 0;
+
 }
  .video__text {
-    color: aliceblue;
+    color: #fff;
     font-family: var(--font-secondary);
-    font-size: 34px;
+    font-size: 68px;
     font-weight: 700;
-    
+    margin: 30px 60px;
+ }
+
+ .video__icon-play {
+    width: 70px;
+    height: auto;
+ }
+ 
+ .video__text-link {
+    color: #fff;
  }
