@@ -25,13 +25,13 @@
 }
 
 .pricing__number {
-    color:var (--cl-brand);
-    font-size: 32px;
+    color:#C00407;
+    font-size: 40px;
     font-weight: 900;
 }
 
 .pricing__text {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 700;
     display: inline;
 }
@@ -87,6 +87,12 @@
     .background-icon__pricing {
         width: 70px;
         height: 70px;
+        align-items: center;
+        border-radius: 50%;
+        background-color: var(--bg-grey);
+        justify-content: center;
+        flex-basis: 50px;
+        display: flex;
     }
 
     .pricing__icon {
@@ -103,11 +109,25 @@
     .pricing {
         flex-wrap: nowrap;
     }
+
+    .pricing__item  {
+        display: grid;
+    }
 }
 
 @media (max-width: 769px) {
     .pricing__icon {
         width: 26px;
         height: 26px;
+    }
+    .background-icon__pricing {
+        width: 50px;
+        height: 50px;
+        align-items: center;
+        border-radius: 50%;
+        background-color: var(--bg-grey);
+        justify-content: center;
+        flex-basis: 50px;
+        display: flex;
     }
 }
