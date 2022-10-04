@@ -7,7 +7,7 @@
     justify-content: center;
 }
 .container__pricing {
-    display: flex;
+    display: inline-flex;
     padding: 60px 0;
 
     line-height: 1.5;
@@ -19,7 +19,7 @@
     display: grid;
     box-shadow: 0px 0px 10px var(--bg-border);
     margin: 0 10px;
-    padding: 20px;
+    padding: 30px 15px 60px 15px;
     box-sizing: border-box;
     width:auto;
 }
@@ -44,24 +44,36 @@
 
     background-color: var(--cl-brand);
 }
+
+.pricing__list {
+    display:inline-grid;
+}
+
+.pricing-list__item {
+    display:flex;
+    margin: 10px;
+}
+
 .pricing__list-text p {
-    display:inline;
+    display: flex;
 }
 .pricing__button {
     font-family: 'Roboto' , sans-serif;
     font-weight: 500;
     font-size: 15px;
-    padding: 16px 25px;
     border-radius: 2px;
     color: var(--cl-light);
     background-color: var(--cl-dark-header);
     text-decoration: none;
     cursor: pointer;
+    width: 86px;
+    height: 40px;
 
     border: 0;
     line-height: 1em;
-    text-transform: uppercase;
     transition: background .2s linear;
+    align-items: center;
+    justify-content: center;
 }
 .pricing__button:hover {
     background-color: var(--cl-brand);
@@ -109,13 +121,13 @@
     .pricing {
         flex-wrap: nowrap;
     }
-
-    .pricing__item  {
-        display: grid;
-    }
 }
 
 @media (max-width: 769px) {
+    .container__pricing  {
+        display: grid;
+    }
+
     .pricing__icon {
         width: 26px;
         height: 26px;
