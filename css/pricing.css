@@ -54,6 +54,10 @@
     margin: 10px;
 }
 
+.pricing__list-text {
+    margin: 10px;
+}
+
 .pricing__list-text p {
     display: flex;
 }
