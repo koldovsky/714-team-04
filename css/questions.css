@@ -1,0 +1,29 @@
+.questions {
+    background-color: #f0e7de;
+}
+.header__questions {
+    font-family: var(--font-secondary);
+    font-size: 48px;
+    color: var(--cl-dark-header);
+    font-weight: 700;
+}
+.header__questions-accent {
+    color: var(--cl-brand);
+}
+.text__questions {
+    font-size: 18px;
+    font-weight: 400;
+}
+.faq__button {
+    font-family: var(--font-primary);
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--cl-light);
+    background-color: var(--cl-brand);
+}
+.ask__button {
+    font-family: var(--font-primary);
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--cl-dark-header);
+}

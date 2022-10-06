@@ -1,11 +1,28 @@
 @import url(common.css);
-
 @import url(header.css);
+@import url(navigation-burger.css);
 @import url(aboutus.css);
+@import url(contacts.css);
 @import url(cover.css);
 @import url(features.css);
-
-@import url(why-us.css);
-@import url(about-machine.css);
+@import url(discover-coffee-machines-we-offer.css);
 @import url(banner.css);
+@import url(present-box-section.css);
+@import url(taste.css);
 @import url(franches.css);
+@import url(cta-small.css);
+@import url(testimonials.css);
+@import url(faq.css);
+@import url(footer.css);
+@import url(why-choose-us.css);
+@import url(pricing.css);
+@import url(video.css);
+@import url(steps.css);
+@import url(time.css);
+@import url(cta-machine.css);
+@import url(partners.css);
+@import url(machines.css);
+@import url(questions.css);
+@import url(services.css);
+@import url(info-special.css);
+@import url(brand.css);

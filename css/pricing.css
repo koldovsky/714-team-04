@@ -1,0 +1,149 @@
+ .pricing {
+    padding: 60px 0;
+    flex-direction: column;
+    line-height: 1.5;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: center;
+}
+.container__pricing {
+    display: inline-flex;
+    padding: 60px 0;
+
+    line-height: 1.5;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: center;
+}
+.pricing__item {
+    display: grid;
+    box-shadow: 0px 0px 10px var(--bg-border);
+    margin: 0 10px;
+    padding: 30px 15px 60px 15px;
+    box-sizing: border-box;
+    width:auto;
+}
+
+.pricing__number {
+    color:#C00407;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.pricing__text {
+    font-size: 22px;
+    font-weight: 700;
+    display: inline;
+}
+.pricing__subtext:before {
+    content: "";
+    display:inline-block;
+    width: 15px;
+    height: 2px;
+    margin: 5px;
+
+    background-color: var(--cl-brand);
+}
+
+.pricing__list {
+    display:inline-grid;
+}
+
+.pricing-list__item {
+    display:flex;
+    margin: 10px;
+}
+
+.pricing__list-text {
+    margin: 10px;
+}
+
+.pricing__list-text p {
+    display: flex;
+}
+.pricing__button {
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 2px;
+    color: var(--cl-light);
+    background-color: var(--cl-dark-header);
+    text-decoration: none;
+    cursor: pointer;
+    width: 86px;
+    height: 40px;
+
+    border: 0;
+    line-height: 1em;
+    transition: background .2s linear;
+    align-items: center;
+    justify-content: center;
+}
+.pricing__button:hover {
+    background-color: var(--cl-brand);
+}
+.pricing__button:focus {
+    outline: none;
+}
+.pricing__list-text {
+    display: block;
+}
+
+@media (min-width: 770px) {
+    .pricing {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .pricing__item {
+        width: 40%;
+    }
+
+    .background-icon__pricing {
+        width: 70px;
+        height: 70px;
+        align-items: center;
+        border-radius: 50%;
+        background-color: var(--bg-grey);
+        justify-content: center;
+        flex-basis: 50px;
+        display: flex;
+    }
+
+    .pricing__icon {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .pricing__text {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 990px) {
+    .pricing {
+        flex-wrap: nowrap;
+    }
+}
+
+@media (max-width: 769px) {
+    .container__pricing  {
+        display: grid;
+    }
+
+    .pricing__icon {
+        width: 26px;
+        height: 26px;
+    }
+    .background-icon__pricing {
+        width: 50px;
+        height: 50px;
+        align-items: center;
+        border-radius: 50%;
+        background-color: var(--bg-grey);
+        justify-content: center;
+        flex-basis: 50px;
+        display: flex;
+    }
+}

@@ -1,4 +1,154 @@
+@media (min-width: 765px) {
+  .about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-self: center;
+  }
+  .about__image {
+    padding-bottom: 25px;
+    width: 100%;
+  }
+  .about__image > img {
+    border-radius: 1%;
+    vertical-align: baseline;
+  }
+  .about__text-content {
+    padding-top: 0;
+    margin-left: 20px;
+  }
+  .about__text-content > p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .banners {
+    display: flex;
+    justify-content: center;
+  }
+
+  .banners__machine,
+  .banners__beans {
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+
+    border-radius: 1%;
+
+    display: flex;
+    flex-direction: column;
+
+    min-height: 310px;
+    margin: 20px 25px 20px 25px;
+  }
+}
+
+.about {
+  display: grid;
+  justify-items: center;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  min-height: 300px;
+}
+
+.about__image > img {
+  border-radius: 2%;
+  vertical-align: baseline;
+}
+.text {
+  padding-left: 5px;
+}
+.banners__machine,
+.banners__beans {
+  background-size: cover;
+  background-position: 50% 50%;
+
+  border-radius: 2%;
+
+  display: flex;
+  flex-direction: column;
+
+  min-height: 310px;
+  margin: 20px 20px 20px 20px;
+  padding-bottom: 30px;
+}
+
+.banners__machine {
+  background-image: url(../img/png/many-cups-and-mashine-resized.png);
+  justify-content: center;
+  align-items: center;
+}
+
+.banners__beans {
+  background-image: url(../img/png/girl-seeping-coffe-resized.png);
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.mashine-header,
+.mashine-text {
+  margin: 0%;
+  padding: 0%;
+}
+.mashine-header > h1 {
+  font-size: 40px;
+}
+
+.header_light {
+  margin-left: 30px;
+  margin-bottom: 5px;
+  color: var(--cl-light);
+  font-size: 40px;
+  font-weight: 700;
+}
+.girl-header {
+  margin-top: 5px;
+  margin-left: 30px;
+  color: var(--cl-light);
+  font-size: 22px;
+  font-weight: 700;
+}
+.font-color-red {
+  font-size: 32px;
+  font-weight: 900;
+}
+.nav__item {
+  margin-left: 30px;
+  color: var(--cl-light);
+}
+
+.nav__item:hover {
+  box-shadow: inset 100px 0 0 0 var(--cl-brand);
+}
+
+.banners__machine-divider {
+  color: var(--cl-brand);
+}
+
+.about__image {
+  object-fit: cover;
+  width: 100%;
+  padding-bottom: 45px;
+}
+.about__image-image {
+  object-fit: cover;
+  width: 100%;
+}
 .about__text-content {
-    font-family: --font-primary, --font-secondary;
-    font-size: medium;
+  padding-top: 0;
+  width: 100%;
+}
+.about__text-content > h1 {
+  padding-top: 15px;
+}
+.text > h4 {
+  font-size: 16px;
+}
+.aboutus {
+  border-radius: 1%;
+}
+.about {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.text-content-list {
+  display: flex;
+  align-items: flex-start;
 }

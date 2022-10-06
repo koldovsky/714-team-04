@@ -1,0 +1,15 @@
+footer {
+    background-color: rgb(33, 33, 33);
+}
+
+.footer__navigation p {
+    color: rgb(255, 255, 255);
+}
+
+.footer__shop p {
+    color: rgb(255, 255, 255);
+}
+
+.footer__contact-form p {
+    color: rgb(255, 255, 255);
+}
