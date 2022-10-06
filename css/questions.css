@@ -20,10 +20,48 @@
     font-weight: 400;
     color: var(--cl-light);
     background-color: var(--cl-brand);
+    box-sizing: border-box;
+    height: 47px;
+    width: 77.1094px;
+    border: var(--cl-brand);
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    border-style: solid;
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    border-radius: 2px;
 }
+
+.faq__button:hover {
+    background-color: var(--cl-dark-header);
+}
+
 .ask__button {
     font-family: var(--font-primary);
     font-size: 15px;
     font-weight: 700;
     color: var(--cl-dark-header);
+    box-sizing: border-box;
+    background-color: #f0e7de;
+    height: 47px;
+    width: 151.844px;
+    border-color: var(--cl-dark-header);
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    border-style: solid;
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    border-radius: 2px;
+}
+
+.ask__button:hover {
+    background-color: var(--cl-dark-header);
 }
