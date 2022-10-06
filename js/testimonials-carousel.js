@@ -68,22 +68,22 @@ let visibleReviews = 1;
 
 function init() {
     width = document.querySelector('.slider').offsetWidth;
-    console.log("resize");
-    console.log("currentReviewId = " + currentReviewId);
+    // console.log("resize");
+    // console.log("currentReviewId = " + currentReviewId);
     if (document.documentElement.clientWidth < 768) {
-        console.log(document.documentElement.clientWidth);
-        console.log("visibleReviews = " + visibleReviews);
+        // console.log(document.documentElement.clientWidth);
+        // console.log("visibleReviews = " + visibleReviews);
         visibleReviews = 1;
         reviewContainer.style.width = width * clients.length / visibleReviews + 'px';
     } else if (document.documentElement.clientWidth >= 768 && document.documentElement.clientWidth < 1024) {
-        console.log(document.documentElement.clientWidth);
+        // console.log(document.documentElement.clientWidth);
         visibleReviews = 2;
-        console.log("visibleReviews = " + visibleReviews);
+        // console.log("visibleReviews = " + visibleReviews);
         reviewContainer.style.width = width * clients.length / visibleReviews + 'px';
     } else if (document.documentElement.clientWidth >= 1024) {
-        console.log(document.documentElement.clientWidth);
+        // console.log(document.documentElement.clientWidth);
         visibleReviews = 3;
-        console.log("visibleReviews = " + visibleReviews);
+        // console.log("visibleReviews = " + visibleReviews);
         reviewContainer.style.width = width * clients.length / visibleReviews + 'px';
     }
     rollSlider();
@@ -119,7 +119,7 @@ arrowToLeft.addEventListener("click", function() {
 function rollSlider() {
     const reviewWidth = document.querySelector('.review').offsetWidth;
     reviewContainer.style.left = -reviewWidth * currentReviewId + 'px';
-    console.log("reviewContainer.style.left = " + reviewContainer.style.left);
-    console.log("reviewWidth = " + reviewWidth);
-    console.log("width = " + width);
+    // console.log("reviewContainer.style.left = " + reviewContainer.style.left);
+    // console.log("reviewWidth = " + reviewWidth);
+    // console.log("width = " + width);
 }
