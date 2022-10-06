@@ -38,6 +38,7 @@
 
 .faq__button:hover {
     background-color: var(--cl-dark-header);
+    border: var(--cl-dark-header);
 }
 
 .ask__button {
