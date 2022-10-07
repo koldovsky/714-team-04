@@ -1,6 +1,7 @@
 .contacts {
-    padding: 90px 15px;
-    border-bottom-color: rgb(34, 34, 34);
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: var(--bg-grey);
     
 }
 
@@ -11,7 +12,9 @@
 .contacts__name {
     color: var(--cl-brand);
     font-family: var(--font-primary);
+    text-transform: uppercase;
     font-size: 12px;
+    padding: 0;
 }
 
 .contacts__title {
