@@ -1130,50 +1130,47 @@
             Feel free to contact us if you need a consultation:
           </p>
         </div>
-        <div class="contact-us__list">
-          <div class="address__title">
-            <h3 class="address__name">Address</h3>
-            <p>303 E 61st St, New York,</p>
-            <p>NY 10065</p>
-          </div>
-          <div class="hours__title">
-            <h3 class="hours__name">Hours</h3>
-            <p>Monday - Saturday: 11 AM - 9 PM</p>
-            <p>Sunday: 11 AM - 7 PM</p>
-          </div>
-          <div class="contacts info__title">
-            <h3 class="contacts info__name">Contacts</h3>
-            <span class="phone">
-              <a href="tel:+1(234)5678900">+1 (234) 567 89 00</a>
-            </span>
-            <span class="email">
-              <a href="mailto:coffeespace@email.com">coffeespace@email.com</a>
-            </span>
+        <div class="contact-us-list-wrapper">
+          <div data-component="collection" class="collection contacts__list" data-items-count="3">
+            <div class="info-list">
+              <h3 class="address__name">Address</h3>
+              <p class="info-text">303 E 61st St, New York,</p>
+              <p class="info-text">NY 10065</p>
+            </div>
+            <div class="info-list">
+              <h3 class="hours__name">Hours</h3>
+              <p class="info-text">Monday - Saturday: 11 AM - 9 PM</p>
+              <p class="info-text">Sunday: 11 AM - 7 PM</p>
+            </div>
+            <div class="info-list">
+              <h3 class="contacts-info__name">Contacts</h3>
+              <p class="info-text">
+                <span class="phone">
+                  <a href="tel:+1(234)5678900">+1 (234) 567 89 00</a>
+                </span>
+              </p>
+              <p class="info-text">
+                <span class="email">
+                  <a href="mailto:coffeespace@email.com">coffeespace@email.com</a>
+                </span>
+              </p>
+            </div>
           </div>
         </div>
-        <iframe width="395"
+        <iframe width="244" height="100%"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d994.0189325229748!2d-73.9637783779292!3d40.76164823593803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258e62ee94721%3A0x7c0f8f9e54640f0b!2zMzAzIEUgNjFzdCBTdCwgTmV3IFlvcmssIE5ZIDEwMDY1LCDQodCo0JA!5e0!3m2!1sru!2sua!4v1662734751673!5m2!1sru!2sua"
           width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <div class="form__contacts container">
+        <div class="form__contacts">
           <form class="form__info__contacts" action="#" id="form-contact" method="POST">
             <ul>
-              <li>
-                <input class="form__info" type="text" name="name" placeholder="Enter your full name*" required />
+              <li><input class="form__info" type="text" name="name" placeholder="Enter your full name*" required /></li>
+              <li><input class="form__info" type="text" name="phone" placeholder="Enter your phone number*" required />
               </li>
-              <li>
-                <input class="form__info" type="text" name="phone" placeholder="Enter your phone number*" required />
-              </li>
-              <li>
-                <input class="form__info" type="text" name="email" placeholder="Enter your e-mail*" required />
-              </li>
-              <li>
-                <textarea class="form__info" name="message" id="info__message" cols="30" rows="10"
-                  placeholder="Type your message" required></textarea>
-              </li>
-              <li>
-                <input class="form__info__button" type="submit" value="Request a Quote" />
-              </li>
+              <li><input class="form__info" type="text" name="email" placeholder="Enter your e-mail*" required /></li>
+              <li><textarea class="form__info" name="message" id="info__message" cols="30" rows="10"
+                  placeholder="Type your message" required></textarea></li>
+              <li><input class="form__info__button" type="submit" value="Request a Quote" /></li>
             </ul>
           </form>
         </div>
