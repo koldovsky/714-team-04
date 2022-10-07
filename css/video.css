@@ -1,6 +1,6 @@
 .bg__table {
     position: relative;
-    background-size: 100%;
+    background-size: cover;
     background: var(--cl-dark-header) url(../img/bg-table.jpg) no-repeat  center /cover;
     background: linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.6) ), url(../img/bg-table.jpg);
     background-attachment: fixed;
