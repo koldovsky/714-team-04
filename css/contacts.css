@@ -1,5 +1,7 @@
 .contacts {
     padding: 90px 15px;
+    border-bottom-color: rgb(34, 34, 34);
+    
 }
 
 .contacts__titles {

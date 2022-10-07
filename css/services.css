@@ -1,0 +1,38 @@
+.header__services {
+    font-family: var(--font-secondary);
+    font-size: 34px;
+    font-weight: 700;
+    color: var(--cl-dark-header);
+}
+
+.text__services {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--cl-dark-maintext);
+}
+
+.menu__item--services {
+    font-family: var(--font-primary);
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+
+.services__card-name {
+    font-family: var(--font-secondary);
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--cl-dark-header);
+}
+
+.services__description {
+    color: #515151;
+    font-weight: 400;
+}
+
+.services__list {
+    font-family: var(--font-primary);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cl-dark-accent);
+}
