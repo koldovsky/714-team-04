@@ -1,6 +1,6 @@
 [
     {
-        "id":1,
+        "id":"1",
         "title":"FROST Coffee Machine",
         "availability":"In stock",
         "code":18,
@@ -9,7 +9,7 @@
         "characteristics":["1 Cup.", "Steam button.", "Adjustable milk temperature and texture level."]
     },
     {
-        "id":2,
+        "id":"2",
         "title":"SMIK 2 Coffee Machine",
         "availability":"In stock",
         "code":20,
@@ -18,7 +18,7 @@
         "characteristics":["8 drink options.", "One-touch self-cleaning system.", "2 cups.", "Available in Red or White."]
     },
     {
-        "id":3,
+        "id":"3",
         "title":"ORGANIC Coffee Machine",
         "availability":"In stock",
         "code":21,
@@ -27,7 +27,7 @@
         "characteristics":["Up to 10 drink options.", "Self-leaning system.", "1 cup at a time", "Can make 100 drinks per hour"]
     },
     {
-        "id":4,
+        "id":"4",
         "title":"SMIK Coffee Machine",
         "availability":"In stock",
         "code":19,
@@ -36,7 +36,7 @@
         "characteristics":["Stainless steel cup holder.", "Removable drip-tray for cups.", "3 filters included (1 cup, 2 cups, paper pods).", "Flow stop function.", "Steam option."]
     },
     {
-        "id":5,
+        "id":"5",
         "title":"La Spezia Coffee Machine",
         "availability":"In stock",
         "code":22,

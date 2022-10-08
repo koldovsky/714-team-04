@@ -1,12 +1,25 @@
-(function() {
-    const slides = [
-        '<div><img src="img/classico.png" alt="classico"><p class="type-coffee">Classico</p><p class="price">4,5usd</p><button class="stub" type="submit">Add to Cart</button></div>',
-        '<div><img src="img/intenso.png" alt="intenso"><p class="type-coffee">Intenso</p><p class="price">5,00usd</p><button class="stub" type="submit">Add to Cart</button></div>',
-        '<div><img src="img/mocha.png" alt="mocha"><p class="type-coffee">Mocha</p><p class="price">4,50usd</p><button class="stub" type="submit">Add to Cart</button></div>',
-        '<div><img src="img/decaf.png" alt="decaf"><p class="type-coffee">Decaf</p><p class="price">5,00usd</p><button class="stub" type="submit">Add to Cart</button></div>',
-        '<div><img src="img/espresso.png" alt="espresso"><p class="type-coffee">Espresso</p><p class="price">4,50usd</p><button class="stub" type="submit">Add to Cart</button></div>'
-    ]
+(async function () {
+    const response = await fetch("api/coffee.json");
+    const products = await response.json();
+    const slides = [];
+    for (const product of products) {
+        slides.push(`
+        <article>
+            <a class="info-link" href="product-info.html">
+            <img data-id=${product.id} width="450" src="${product.img}" alt="${product.title} coffee"> 
+            <h3 data-id=${product.id}>${product.title}</h3></a>
+            <h3>${product.prise}USD</h3>
+            <button class="" href="" data-id=${product.id}>Add to cart</button>
+        </article>
+        `);
+    }
     let currentSlideIdx = 0;
+
+    function productInfoClick(ev) {
+        const productId = ev.target.dataset.id;
+        const product = products.filter(product => product.id === productId)[0];
+        localStorage.product = JSON.stringify(product);
+    }
 
     function renderSlides() {
         const slidesCoffee = document.querySelector('.carusel-coffee .slides-coffee');
@@ -23,6 +36,8 @@
         }
 
         slidesCoffee.innerHTML = currentSlides.join("");
+        document.querySelectorAll('.info-link')
+        .forEach( link => link.addEventListener('click', productInfoClick) );
 
     }
 

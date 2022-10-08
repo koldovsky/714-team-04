@@ -28,6 +28,10 @@
     fill: currentColor;  
 }
 
+.navigation__item:hover {
+    color: var(--cl-brand);
+}
+
 .header__burger {
     display: flex;
     align-items: center;
@@ -84,8 +88,13 @@
 }
 
 @media (min-width: 990px) {
+    .navigation__item:hover {
+        border-bottom: 2px solid #c00407;
+    }
     .contacts-header-fix {
-        padding: 5px 0;
+        padding: 5px 32px;
+        display: flex;
+        justify-content: space-between;
     }
 
     .contacts-header__location-burger {
@@ -149,6 +158,9 @@
     }
 
     .navigation__item {
+        border-bottom: 2px solid #ffffff;
+        padding: 10px 17px;
+        margin: 0;
         display: flex;
         flex-direction: row;
     }
