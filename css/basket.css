@@ -1,0 +1,17 @@
+.bascet {
+    /* display: none; */
+    position: absolute;
+    width: 100px;
+    left: 0;
+    top: 0;
+    background-color: black;
+    border-radius: 50%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    --offset-vertical: 80px;
+    --offset-horizontal: 30px;
+    /* display: block; */
+}
