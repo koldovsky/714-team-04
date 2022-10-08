@@ -1,0 +1,82 @@
+.header__coffee {
+    font-family: var(--font-secondary);
+    font-size: 34px;
+    font-weight: 700;
+    color: var(--cl-dark-header);
+}
+
+.coffee__text {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--cl-dark-maintext);
+}
+
+.coffee__article {
+    font-family: var(--font-primary);
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cl-dark-header);
+}
+
+.coffee_price {
+    font-family: var(--font-primary);
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--cl-brand);
+}
+
+.buy__button {
+    font-family: var(--font-primary);
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--bg-light);
+    background-color: var(--cl-brand);
+}
+
+.in__stock {
+    font-family: var(--font-primary);
+    font-size: 16px;
+    font-weight: 400;
+    color: #61A854;
+}
+
+.coffee__name {
+    font-family: var(--font-secondary);
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--cl-dark-header);
+}
+
+.product__code {
+    font-family: var(--font-primary);
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--cl-dark-header);
+}
+
+.price {
+    font-family: var(--font-primary);
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--cl-dark-header);
+}
+
+.add__button {
+    font-family: var(--font-primary);
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--bg-light);
+    background-color: var(--cl-brand);
+}
+
+.coffee__description {
+    font-family: var(--font-primary);
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--cl-dark-header); 
+}
+
+.text__description {
+    font-weight: 400;
+    color: var(--cl-dark-header);
+}

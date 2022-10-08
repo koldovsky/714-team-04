@@ -1,15 +1,41 @@
-footer {
-    background-color: rgb(33, 33, 33);
+.footer__section {
+    /*display: flex;*/
+    background-color: #222;
+    text-align: center;
+}
+
+.footer__icon {
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.footer__sitemap>*:not(:first-child) {
+    padding: 25px 0;
+}
+
+.footer__sitemap {
+    text-align: center;
 }
 
 .footer__navigation p {
     color: rgb(255, 255, 255);
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
 }
 
 .footer__shop p {
     color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
 }
 
 .footer__contact-form p {
     color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
 }
