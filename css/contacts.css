@@ -2,12 +2,14 @@
     padding-top: 90px;
     padding-bottom: 90px;
     background-color: var(--bg-grey);
+    display: grid;
     
 }
 
 .contact-us {
     position: relative;
     font-size: 16px;
+    display: flex;
 }
 
 .contacts__titles {
@@ -34,7 +36,7 @@
     color: var(--cl-dark-header);
 }
 
-.contact-us-list-wrapper {
+.contact-us-list {
     margin-top: 25px;
 }
 
