@@ -1,4 +1,4 @@
-.navigation__item {
+.header-navigation__item {
     color: rgb(101, 101, 101);
     font-size: 14px;
     margin: 15px;
@@ -10,7 +10,7 @@
     padding: 5px 40px;
 }
 
-.navigation__item:hover {
+.header-navigation__item:hover {
     color: var(--cl-brand);
 }
 
@@ -88,7 +88,7 @@
 }
 
 @media (min-width: 990px) {
-    .navigation__item:hover {
+    .header-navigation__item:hover {
         border-bottom: 2px solid #c00407;
     }
     .contacts-header-fix {
@@ -157,7 +157,7 @@
         font-weight: bold;
     }
 
-    .navigation__item {
+    .header-navigation__item {
         border-bottom: 2px solid #ffffff;
         padding: 10px 17px;
         margin: 0;
