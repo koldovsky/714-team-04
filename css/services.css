@@ -36,3 +36,11 @@
     font-weight: 400;
     color: var(--cl-dark-accent);
 }
+
+.flex {
+    display: flex;
+}
+
+.none {
+    display: none;
+}
