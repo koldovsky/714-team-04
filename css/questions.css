@@ -3,7 +3,7 @@
 }
 .content__questions {
     text-align: left;
-    padding: 100px 30px 100px 30px;
+    padding: 160px 30px 40px 30px;
     margin-top: 35px;
 }
 .header__questions {
@@ -84,7 +84,9 @@
     .questions__box {
         display: flex;        
     }
-    
+    .content__questions {
+        width: 82%;
+    }
     .picture__questions img {
         object-fit: cover;
         object-position: 41.211% 12.053%;
