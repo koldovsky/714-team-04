@@ -62,7 +62,13 @@
 .faq-button {
     padding-top: 20px;
     padding-bottom: 20px;
-    border-bottom: solid 1px var(--cl-dark-accent);
+    border-bottom: solid 1px var(--bg-border);
+}
+
+.faq-answer {
+    display: block;
+    max-height: 0;
+    overflow: hidden;
 }
 
 @media (min-width: 768px) {
