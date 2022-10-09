@@ -89,8 +89,8 @@
     display: block;
 }
 
-@media (min-width: 770px) {
-    .pricing {
+@media (min-width: 768px) {
+    .container__pricing {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
@@ -122,7 +122,7 @@
 }
 
 @media (min-width: 990px) {
-    .pricing {
+    .container__pricing {
         flex-wrap: nowrap;
     }
 }
