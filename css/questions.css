@@ -3,7 +3,7 @@
 }
 .content__questions {
     text-align: left;
-    padding: 160px 30px 40px 30px;
+    padding: 130px 30px 70px 30px;
     margin-top: 35px;
 }
 .header__questions {
@@ -25,22 +25,22 @@
 }
 .questions__buttons--box {
     display: block;
-    width: 268.953px;
+    width: 278.953px;
     line-height: 25.6px;
     margin: -10px -10px -10px 0;
 }
 .faq__button {
+    display: inline-block;
     font-family: var(--font-primary);
     font-size: 15px;
-    font-weight: 400;
+    font-weight: bold;
+    line-height: 15px;
     color: var(--cl-light);
     background-color: var(--cl-brand);
-    box-sizing: border-box;
-    height: 47px;
-    width: 77.1094px;
+    width: 83.1094px;
     border: var(--cl-brand);
     margin-right: 10px;
-    padding: 0;
+    padding: 13px 25px 13px 25px;
     border-style: solid;
     border-top-width: 3px;
     border-right-width: 3px;
@@ -56,17 +56,17 @@
 }
 
 .ask__button {
+    display: inline;
     font-family: var(--font-primary);
     font-size: 15px;
     font-weight: 700;
+    line-height: 15px;
     color: var(--cl-dark-header);
-    box-sizing: border-box;
     background-color: #f0e7de;
-    height: 47px;
-    width: 151.844px;
+    width: 157.844px;
     border-color: var(--cl-dark-header);
     margin-left: 10px;
-    padding: 0;
+    padding: 13px 25px 13px 25px;
     border-style: solid;
     border-top-width: 3px;
     border-right-width: 3px;
