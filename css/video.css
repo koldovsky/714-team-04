@@ -1,8 +1,9 @@
 .bg__table {
     position: relative;
+    width: 100%;
     background-size: cover;
-    background: var(--cl-dark-header) url(../img/bg-table.jpg) no-repeat  center /cover;
-    background: linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.6) ), url(../img/bg-table.jpg);
+    background: var(--cl-dark-header) url(../img/bg-table.jpg);
+    background: linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.6) ), url(../img/bg-table.jpg) no-repeat center/cover;
     background-attachment: fixed;
     padding: 195px 0px 200px;
     z-index: 100;
