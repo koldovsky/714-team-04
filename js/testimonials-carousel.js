@@ -68,22 +68,14 @@ let visibleReviews = 1;
 
 function init() {
     width = document.querySelector('.slider').offsetWidth;
-    // console.log("resize");
-    // console.log("currentReviewId = " + currentReviewId);
     if (document.documentElement.clientWidth < 768) {
-        // console.log(document.documentElement.clientWidth);
-        // console.log("visibleReviews = " + visibleReviews);
         visibleReviews = 1;
         reviewContainer.style.width = width * clients.length / visibleReviews + 'px';
     } else if (document.documentElement.clientWidth >= 768 && document.documentElement.clientWidth < 1024) {
-        // console.log(document.documentElement.clientWidth);
         visibleReviews = 2;
-        // console.log("visibleReviews = " + visibleReviews);
         reviewContainer.style.width = width * clients.length / visibleReviews + 'px';
     } else if (document.documentElement.clientWidth >= 1024) {
-        // console.log(document.documentElement.clientWidth);
         visibleReviews = 3;
-        // console.log("visibleReviews = " + visibleReviews);
         reviewContainer.style.width = width * clients.length / visibleReviews + 'px';
     }
     rollSlider();
@@ -93,8 +85,9 @@ window.addEventListener('resize', init);
 init();
 
 // flipping carousel to right
-const arrowToRight = document.querySelector('.arrow-to-right');
+const arrowToRight = document.querySelector('.arrow-to-right-testimonials');
 arrowToRight.addEventListener("click", function() {
+    console.log("click!");
     if (currentReviewId < clients.length - visibleReviews) {
         currentReviewId++;
         rollSlider();
@@ -102,7 +95,7 @@ arrowToRight.addEventListener("click", function() {
 });
 
 // flipping carousel to left
-const arrowToLeft = document.querySelector('.arrow-to-left');
+const arrowToLeft = document.querySelector('.arrow-to-left-testimonials');
 arrowToLeft.addEventListener("click", function() {
     if (currentReviewId > 0) {
         currentReviewId--;
@@ -110,16 +103,13 @@ arrowToLeft.addEventListener("click", function() {
     }
 });
 
-// function rollSlider() {
-//     const reviewWidth = document.querySelector('.review').offsetWidth;
-//     reviewContainer.style.transform = 'translate(-'+currentReviewId * reviewWidth + 'px)';
-// }
-
-
 function rollSlider() {
     const reviewWidth = document.querySelector('.review').offsetWidth;
-    reviewContainer.style.left = -reviewWidth * currentReviewId + 'px';
-    // console.log("reviewContainer.style.left = " + reviewContainer.style.left);
-    // console.log("reviewWidth = " + reviewWidth);
-    // console.log("width = " + width);
+    reviewContainer.style.transform = 'translate(-'+currentReviewId * reviewWidth + 'px)';
 }
+
+
+// function rollSlider() {
+//     const reviewWidth = document.querySelector('.review').offsetWidth;
+//     reviewContainer.style.left = -reviewWidth * currentReviewId + 'px';
+// }
