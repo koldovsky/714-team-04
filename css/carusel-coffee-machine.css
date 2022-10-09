@@ -1,0 +1,34 @@
+.carusel-coffee-machine {
+    position: relative;
+    display: flex;
+    margin: 40px 0 40px 0;
+}
+
+.carusel-coffee-machine .slides-coffee-machine img {
+    width: 100%;
+    max-width: 263px;
+    height: 100%;
+    max-height: 263px;
+}
+
+@media(max-width:990px) {
+    .carusel-coffee-machine .slides-coffee-machine img {
+        max-width: 376px;
+        max-height: 376px;
+    }
+}
+
+@media(max-width:765px) {
+    .carusel-coffee-machine .slides-coffee-machine img {
+        max-width: 696px;
+    }
+}
+
+.slides-coffee-machine>div {
+    padding: 0 15px;
+}
+
+.carusel-coffee-machine .slides-coffee-machine {
+    display: flex;
+    margin: auto;
+}
