@@ -41,6 +41,7 @@
     font-size: 18px;
     font-weight: 500;
     line-height: 25.2px;
+    cursor: pointer;
 }
 
 .faq-answer {
@@ -48,6 +49,10 @@
     font-family: var(--font-primary);
     font-size: 16px;
     line-height: 25.6px;
+    display: block;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
 }
 
 .accordeon {
@@ -63,12 +68,6 @@
     padding-top: 20px;
     padding-bottom: 20px;
     border-bottom: solid 1px var(--bg-border);
-}
-
-.faq-answer {
-    display: block;
-    max-height: 0;
-    overflow: hidden;
 }
 
 @media (min-width: 768px) {
