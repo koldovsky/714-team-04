@@ -1,10 +1,7 @@
 .contacts {
-    padding: 90px 0px;
+    padding-top: 90px;
+    padding-bottom: 90px;
     background-color: var(--bg-grey);
-    display: grid;
-    gap: 30px;
-    text-align: left;
-
 }
 
 .contact-us {

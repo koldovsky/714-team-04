@@ -1,7 +1,8 @@
-.footer__section {
-    /*display: flex;*/
-    background-color: #222;
-    text-align: center;
+.footer {
+    background-color: rgb(33, 33, 33);
+    margin-top: 90px;
+    padding-top: 90px;
+    
 }
 
 .footer__icon {
@@ -12,13 +13,6 @@
     padding-right: 15px;
 }
 
-.footer__sitemap>*:not(:first-child) {
-    padding: 25px 0;
-}
-
-.footer__sitemap {
-    text-align: center;
-}
 
 .footer__navigation p {
     color: rgb(255, 255, 255);
