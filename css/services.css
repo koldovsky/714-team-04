@@ -69,9 +69,19 @@
     overflow-y: hidden;
     overflow-x: hidden;
     object-position: 4.274% 0%;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
 }
 .services__cards {
     margin-top: 45px;
+}
+.rentalservices,
+.consulting,
+.accessories,
+.repair {
+box-sizing: border-box;
+border-radius: 8px;
+box-shadow: 0 5px 11.2px 2.8px rgba(136,140,133,.12);
 }
 .services__card--text {
     padding: 39px 39px 0 39px;
