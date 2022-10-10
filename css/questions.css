@@ -85,18 +85,19 @@
         display: flex;        
     }
     .content__questions {
-        width: 82%;
+        width: 50%;
     }
     .picture__questions img {
         object-fit: cover;
         object-position: 41.211% 12.053%;
         overflow: hidden;
         height: 784.375px;
+        width: 375.5px;
     }
     .header__questions {
         font-size: 63px;
         margin-top: 30px;
-        line-height: 52.8px;
+        line-height: 69.3px;
     }
 }
 
@@ -104,4 +105,18 @@
 .header__questions {
     font-size: 68px;
     line-height: 74.8px;
+}
+.picture__questions img{
+    height: 871.375px;
+    width: 487.5px;
+}
+}
+@media (min-width:1280px) {
+      .picture__questions img{
+        height: 694.781px;
+        width: 640px;
+    }
+    .content__questions {
+        margin-top: 0px;
+    }
 }    
