@@ -141,3 +141,56 @@
 .none {
     display: none;
 }
+
+@media (min-width: 768px) {
+    .services__header--box {
+        margin-left: 16.6667%;
+        padding-left: 15px;
+        padding-right: 15px;
+        max-width: 66.6667%;
+        letter-spacing: normal;
+    }
+    .header__services {
+        margin-top: 30px;
+        font-size: 37px;
+        letter-spacing: normal;
+        line-height: 44.4px;
+    }
+    .services__content {
+        margin-top: 60px;
+    }
+    .nav__services {
+        display: inline-flex;
+        position: relative;
+        min-width: 100%;
+        justify-content: center;
+    }
+    .rentalservices {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .services__img {
+        object-fit: cover;
+        object-position: 4.274% 0%;
+        display: flex;
+        height: 782.062px;
+        width: 352px;
+    }
+    .services__card--text {
+        padding: 46px 46px 0px 46px;
+    }
+    .services__card-name {
+        font-size: 22px;
+        line-height: 33px;
+        letter-spacing: normal;
+    }
+    .services__list {
+        margin-top: 30px;
+        vertical-align: middle;
+    }
+} 
+@media (min-width: 992px) {
+    .header__services {
+        font-size: 40px;
+        line-height: 48px;
+    }
