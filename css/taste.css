@@ -1,21 +1,10 @@
-/* .aroma-taste {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-} */
-
-/* @media (max-width: 800px) {
-    .aroma-taste {
-        padding: 50px;
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-} */
-
-.aroma-cup img {
+.aroma-cup{
     width: 100%;
     display: block;
-    border-radius: 30px;
+}
+
+.figure-wrap{
+    max-width: 1300px;
 }
 
 .taste-picture img {
