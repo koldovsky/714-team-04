@@ -158,6 +158,8 @@
     }
     .services__content {
         margin-top: 60px;
+        padding-left: 32px;
+        padding-right: 32px;
     }
     .nav__services {
         display: inline-flex;
@@ -165,7 +167,10 @@
         min-width: 100%;
         justify-content: center;
     }
-    .rentalservices {
+    .rentalservices,
+    .consulting,
+    .accessories,
+    .repair {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
@@ -190,7 +195,36 @@
     }
 } 
 @media (min-width: 992px) {
+    .services {
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: 0;
+    }
     .header__services {
         font-size: 40px;
         line-height: 48px;
     }
+    .text__services {
+        padding: 0;
+    }
+    .services__img {
+        height: 707.688px;
+        width: 447.5px;
+    }
+    .services__card--text {
+        padding-left: 60px;
+        padding-top: 60px;
+        padding-right: 60px;
+    }
+    .services__list {
+        padding-left: 60px;
+        padding-right: 55px;
+    }
+}
+@media (min-width: 1240px) {
+    .services__img {
+        height: 100%;
+        width: 100%;
+        object-position: 4.274% 0%;
+    }
+}
