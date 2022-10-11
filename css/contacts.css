@@ -112,7 +112,6 @@
     text-transform: none;
     max-width: 100%;
     word-wrap: break-word;
-    vertical-align: baseline;
 }
 
 .info-text>a {
@@ -212,7 +211,7 @@
     #submit {
         width: 100%;
     }
-}       
+}        
 
 #submit {
     font-size: 12px;
