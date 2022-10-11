@@ -145,7 +145,7 @@ box-shadow: 0 5px 11.2px 2.8px rgba(136,140,133,.12);
 }
 
 .flex {
-    display: flex;
+    display: contents;
 }
 
 .none {
@@ -181,8 +181,10 @@ box-shadow: 0 5px 11.2px 2.8px rgba(136,140,133,.12);
     .consulting,
     .accessories,
     .repair {
-        display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+    .flex {
+        display: grid;
     }
     .services__img {
         object-fit: cover;
