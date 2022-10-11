@@ -17,6 +17,7 @@
     function productInfoClick(ev) {
         const productId = ev.target.dataset.id;
         const product = products.filter(product => product.id === productId)[0];
+        localStorage.clear();
         localStorage.product = JSON.stringify(product);
     }
 
