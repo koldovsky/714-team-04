@@ -61,7 +61,8 @@
     position: relative;
     justify-content: center;
     font-weight: 600;
-    
+    font-size: 22px;
+    font-stretch: 100%;
 }
 
 .navigation__item {
@@ -83,6 +84,7 @@
     justify-content: center;
     font-weight: 600;
     font-stretch: 100%;
+    font-size: 22px;
 }
 
 .footer__info__all {
@@ -94,6 +96,11 @@
     margin-right: -15px;
     padding: 0 35px;
     padding-bottom: 90px;
+}
+
+.navigation__text {
+    font-size: 22px;
+    font-weight: 600;
 }
 
 @media (max-width: 768px) {
@@ -151,6 +158,14 @@
 .footer-create-by {
     background-color: rgb(4, 4, 4);
     width: 100%;
+}
+
+@media (max-width: 768px) {
+    .create__by {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 .create__by {
