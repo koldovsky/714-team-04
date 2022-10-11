@@ -1236,30 +1236,33 @@
               </div>
             </div>
           </div>
-          <iframe width="244"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d994.0189325229748!2d-73.9637783779292!3d40.76164823593803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258e62ee94721%3A0x7c0f8f9e54640f0b!2zMzAzIEUgNjFzdCBTdCwgTmV3IFlvcmssIE5ZIDEwMDY1LCDQodCo0JA!5e0!3m2!1sru!2sua!4v1662734751673!5m2!1sru!2sua"
-            width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="contact-us-map">
+            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d994.0189325229748!2d-73.9637783779292!3d40.76164823593803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258e62ee94721%3A0x7c0f8f9e54640f0b!2zMzAzIEUgNjFzdCBTdCwgTmV3IFlvcmssIE5ZIDEwMDY1LCDQodCo0JA!5e0!3m2!1sru!2sua!4v1662734751673!5m2!1sru!2sua"
+              style="border: 0" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+              #document
+            </iframe>
+          </div>
         </div>
         <div class="form__contacts">
           <form class="w-form ui-contact-form form__info__contacts" action="#" id="form-contact" method="POST">
             <div class="form-field">
-              <input class="form__info form-input" type="text" name="name" placeholder="Enter your full name*"
+              <input class="form__info form-input" type="text" id="name" name="name" placeholder="Enter your full name*"
                 required />
             </div>
             <div class="form-field">
-              <input class="form__info form-input" type="text" name="phone" placeholder="Enter your phone number*"
+              <input class="form__info form-input" type="text" id="phone" name="phone" placeholder="Enter your phone number*"
                 required />
             </div>
             <div class="form-field">
-              <input class="form__info form-input" type="text" name="email" placeholder="Enter your e-mail*" required />
+              <input class="form__info form-input" type="text" id="email" name="email" placeholder="Enter your e-mail*" required />
             </div>
             <div class="form-field">
-              <textarea class="form__info form-input" name="message" id="info__message" cols="30" rows="10"
+              <textarea class="form__info form-input" name="text" id="message" cols="30" rows="10"
                 placeholder="Type your message" required></textarea>
             </div>
             <div class="form-field">
-              <input class="form__info__button" type="submit" value="Request a Quote" />
+              <input type="submit" id="submit" value="Request a Quote" />
             </div>
           </form>
         </div>

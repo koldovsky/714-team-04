@@ -108,11 +108,33 @@
 .info-text>a {
     text-decoration: none;
     color: var(--cl-dark-maintext);
-    
+
 }
 
 .background__contacts {
     background: #FFFFFF;
+}
+
+@media (min-width: 768px) {
+    .contact-us-map {
+        grid-area: 3/1/4/3;
+        text-align: left;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        position: relative;
+        bottom: 0;
+    }
+}
+
+.contact-us-map {
+    width: 80%;
+    margin: auto;
+}
+
+#map {
+    width: 100%;
+    margin: auto;
 }
 
 .form-contacts {
@@ -122,23 +144,15 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    min-width: 320px;
+    
 }
 
 .form__contacts {
     background-color: rgb(255, 255, 255);
-    display: flex;
-    flex-direction: column;
-    justify-content: baseline;
-    text-align: left;
-    font-size: 16px;
-    line-height: 25.6px;
-    align-items: center;
-    margin-top: 50px;
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 100%;
-    
+    display: block;
+    width: 90%;
+    margin: 15px auto;
+    padding: 30px 20px;
 }
 
 .w-form {
@@ -153,6 +167,40 @@
     font-size: var(--font-secondary);
     line-height: 1.6;
     font-weight: 400;
+}
+
+#name, #email, #phone {
+    display: block;
+    width: 100%;
+    margin: 15px auto;
+    padding: 19px 21px;
+    background-color: var(--cl-light);
+    border: none;
+    border-bottom: 2px solid var(--cl-dark-accent);
+    font-family: var(--font-secondary);
+}
+
+#message {
+    display: block;
+    width: 100%;
+    margin: 15px auto;
+    padding: 19px 21px 150px 21px;
+    background-color: var(--cl-light);
+    border: none;
+    border-bottom: 2px solid var(--cl-dark-accent);
+    font-family: var(--font-secondary);
+}
+
+#submit {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    height: 50px;
+    width: 100%;
+    background-color: var(--cl-brand);
+    border: none;
+    margin-top: 40px;
+
 }
 
 .form__info__contacts {
