@@ -1,13 +1,27 @@
 .contacts {
+    display: grid;
     padding-top: 90px;
     padding-bottom: 90px;
     background-color: var(--bg-grey);
+    
+    
+}
+
+@media (min-width: 768px) {
+    .contacts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    } 
 }
 
 .contact-us {
     position: relative;
     font-size: 16px;
     display: flex;
+}
+
+.contact-us-block {
+    
 }
 
 .contacts__titles {
@@ -76,6 +90,7 @@
     background-color: var(--white-color);
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     min-width: 320px;
@@ -85,15 +100,53 @@
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: baseline;
+    text-align: left;
+    font-size: 16px;
+    line-height: 25.6px;
     align-items: center;
-    padding: 90px 0px 100px 0px;
+    margin-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
     
 }
 
+.w-form {
+    position: relative;
+    padding-top: 39px;
+    padding-bottom: 39px;
+    padding-left: 47px;
+    padding-right: 47px;
+}
+
+.ui-contact-form {
+    font-size: var(--font-secondary);
+    line-height: 1.6;
+    font-weight: 400;
+}
+
 .form__info__contacts {
+    color: #222;
     word-wrap: break-word;
     padding: 20px 0px 0px 0px;
+    
+}
+
+.form-field {
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.form__info {
+    border-color: #8c8c8c;
+    background-color: #f9f9f9;
+    --w-get-input-background-color: #f9f9f9;
+}
+
+.form-input {
+    display: block;
+    margin-top: 12px;
+    
 }
 
 .form__info__button {
