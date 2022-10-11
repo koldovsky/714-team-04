@@ -33,14 +33,13 @@
  }
 
  .video__play {
-    padding-left: 100px;
     display: flex;
-    
+    align-items: center;
  }
 
  .video__icon-play {
     width: 70px;
-    height: auto;
+    height: 70px;
  }
  
  .video__text-link {
@@ -50,7 +49,7 @@
  }
  @media(min-width: 769px) {
    .video__play {
-      display: grid;
+      display: flex;
    }
 
    .video__container {
