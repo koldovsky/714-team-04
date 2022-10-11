@@ -5,6 +5,7 @@
     max-width: 1200px;
     margin: auto;
     justify-content: center;
+    text-align: center;
 }
 .container__pricing {
     display: inline-flex;
