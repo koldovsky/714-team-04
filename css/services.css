@@ -69,20 +69,11 @@
     overflow-y: hidden;
     overflow-x: hidden;
     object-position: 4.274% 0%;
-    border-bottom-left-radius: 8px;
-    border-top-left-radius: 8px;
 }
 .services__cards {
     margin-top: 45px;
 }
-.rentalservices,
-.consulting,
-.accessories,
-.repair {
-box-sizing: border-box;
-border-radius: 8px;
-box-shadow: 0 5px 11.2px 2.8px rgba(136,140,133,.12);
-}
+
 .services__card--text {
     padding: 39px 39px 0 39px;
 }
@@ -152,6 +143,27 @@ box-shadow: 0 5px 11.2px 2.8px rgba(136,140,133,.12);
     display: none;
 }
 
+@media (max-width: 767px) {
+.rentalservices .services__card--block {
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 5px 11.2px 2.8px rgba(136,140,133,.12);
+    padding-bottom: 10px;
+}
+.services__img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.nav__services {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 0;
+}
+.menu__item--services {
+    padding: 0;
+}
+}
+
 @media (min-width: 768px) {
     .services__header--box {
         margin-left: 16.6667%;
@@ -177,10 +189,17 @@ box-shadow: 0 5px 11.2px 2.8px rgba(136,140,133,.12);
         min-width: 100%;
         justify-content: center;
     }
+    .services__img {
+        border-bottom-left-radius: 8px;
+        border-top-left-radius: 8px;
+    }
     .rentalservices,
     .consulting,
     .accessories,
     .repair {
+        box-sizing: border-box;
+        border-radius: 8px;
+        box-shadow: 0 5px 11.2px 2.8px rgba(136,140,133,.12);
         grid-template-columns: 1fr 1fr;
     }
     .flex {
