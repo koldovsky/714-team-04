@@ -3,8 +3,12 @@
     padding-top: 90px;
     padding-bottom: 90px;
     background-color: var(--bg-grey);
-    
-    
+    width: 100%;
+}
+
+.background__contacts {
+    background-color: var(--bg-grey);
+    width: 100%;
 }
 
 @media (min-width: 768px) {

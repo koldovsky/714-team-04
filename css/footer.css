@@ -2,13 +2,24 @@
     background-color: rgb(33, 33, 33);
     margin-top: 90px;
     padding-top: 90px;
-    /*display: flex;*/
     align-items: stretch;
     justify-content: center;
     text-align: center;
     
 }
 
+.footer__background {
+    background-color: rgb(33, 33, 33);
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+.footer__icon {
+    max-width: 300px;
+}
+}
+
+ 
 .footer__icon {
     display: flex;
     flex-basis: 100%;
@@ -17,6 +28,7 @@
     padding-right: 15px;
     justify-content: center;
 }
+
 
 .footer__navigation {
     display: flex;
@@ -49,6 +61,7 @@
     position: relative;
     justify-content: center;
     font-weight: 600;
+    
 }
 
 .navigation__item {
@@ -56,6 +69,8 @@
     font-size: 17px;
     margin: 15px;
     font-weight: 600;
+    text-align: left;
+    
 }
 
 .footer__shop p {
@@ -70,16 +85,40 @@
     font-stretch: 100%;
 }
 
+.footer__info__all {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: calc(100% + 30px);
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 0 35px;
+    padding-bottom: 90px;
+}
+
+@media (max-width: 768px) {
+.footer__info__all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+}
+
 .footer__contact-form p {
     color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    font-weight: 600;
+    font-stretch: 100%;
 }
 
-.footer__info__all {
-    display: flex;
-    flex-direction: row;
-}
+
+
+
 
 .email__input {
     border-color: #f9f9f9;
@@ -103,4 +142,30 @@
     width: 100%;
     margin-top: 12px;
 
+}
+
+.contact-form__text {
+    font-weight: bold;
+}
+
+.footer-create-by {
+    background-color: rgb(4, 4, 4);
+    width: 100%;
+}
+
+.create__by {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 30px 32px;
+}
+
+.footer__creating {
+    display: flex;
+}
+
+.creating__text {
+    font-size: 12px;
+    font-family: var(--font-primary);
+    font-weight: 700;
 }
