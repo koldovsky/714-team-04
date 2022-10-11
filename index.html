@@ -307,11 +307,13 @@
       </div>
     </div>
     <div class="brand-carusel container">
-      <button class="arrow prev-icon"><img class="arrow-btn arrow-to-left" src="img/arrow-black.svg" alt="Arrow Button"
-          width="30"></button>
+      <button class="arrow prev-icon">
+        <img class="arrow-btn arrow-to-left" src="img/arrow-black.svg" alt="Arrow Button" width="30" />
+      </button>
       <div class="slides-brand"></div>
-      <button class="arrow next-icon"><img class="arrow-btn arrow-to-right" src="img/arrow-black.svg" alt="Arrow Button"
-          width="30"></button>
+      <button class="arrow next-icon">
+        <img class="arrow-btn arrow-to-right" src="img/arrow-black.svg" alt="Arrow Button" width="30" />
+      </button>
     </div>
     <section id="coffemachine" class="machines container">
       <div class="coffemachine_title">
@@ -323,11 +325,13 @@
       </div>
       <div class="container">
         <div class="carusel-coffee-machine">
-          <button class="prev-button"><img class="arrow-btn arrow-to-left" src="img/arrow.svg" alt="Arrow Button"
-              width="30"></button>
+          <button class="prev-button">
+            <img class="arrow-btn arrow-to-left" src="img/arrow.svg" alt="Arrow Button" width="30" />
+          </button>
           <div class="slides-coffee-machine"></div>
-          <button class="next-button"><img class="arrow-btn arrow-to-right" src="img/arrow.svg" alt="Arrow Button"
-              width="30"></button>
+          <button class="next-button">
+            <img class="arrow-btn arrow-to-right" src="img/arrow.svg" alt="Arrow Button" width="30" />
+          </button>
         </div>
       </div>
     </section>
@@ -338,13 +342,13 @@
         <div class="date"></div>
       </div>
     </section>
-    <section class="aroma-taste-section container">
-      <figure>
+    <section class="aroma-taste-section">
+      <figure class="figure-wrap">
         <div class="aroma-cup">
           <img src="img/png/aroma-cap.png" alt="coffee" />
         </div>
       </figure>
-      <div class="aroma-taste">
+      <div class="aroma-taste container">
         <figure>
           <div class="coffee-taste">
             <p>Exceptional Taste</p>
@@ -362,9 +366,17 @@
               coffee beans.
             </h3>
             <div class="best-beans">
-              <div class="taste-picture">
-                <div class="cvgWrap">
-                  <img src="img/svg/icon2.svg" alt="beans" />
+              <div class="taste">
+                <div class="taste-picture">
+                  <img src="img/png/icon.png" alt="machin" />
+                </div>
+                <div class="description">
+                  <h1>Variety of Coffee Machines</h1>
+                  <p>
+                    We are providers of bean-to-cup coffee machines and
+                    professional equipment for offices and coffee shops. We
+                    offer affordable rental solutions.
+                  </p>
                 </div>
               </div>
               <div class="taste">
@@ -398,8 +410,8 @@
         </figure>
       </div>
     </section>
-    <section class="present-box-section container">
-      <figure>
+    <section class="present-box-section">
+      <figure class="figure-wrap">
         <div class="aroma-cup">
           <img alt="Heading photo" class="present-box-img" src="img/png/meet-smik-coffee-machine.webp" />
         </div>
@@ -475,9 +487,9 @@
           <h2 class="services__name">SERVICES</h2>
           <h3 class="header__services">Everything Related to Coffee</h3>
           <p class="text__services">
-            Our company is the ultimate place for everything related to coffee. We
-            offer coffee machines for rent, as well as repairs, accessories, and
-            supplies.
+            Our company is the ultimate place for everything related to
+            coffee. We offer coffee machines for rent, as well as repairs,
+            accessories, and supplies.
           </p>
         </div>
         <div class="services__cards">
@@ -488,175 +500,186 @@
             <a href="#repair" class="repair__button menu__item--services">Repair</a>
           </div>
           <article class="rentalservices flex">
-            <img class="services__img" src="img/coffee_machine.png" alt="Coffee machine"/>
-            <div class="services__card--text">
-              <h4 class="services__card-name">Coffee Machine Rental.</h4>
-              <div class="services__divider">
-                <div class="divider__component"></div>
-              </div>
-              <p class="services__description">
-                Do you want to always drink your favorite coffee, but don't want
-                to waste time brewing it? Our company is ready to help you. Here
-                you can rent manual and automatic coffee machines that will
-                prepare your favorite drink as quickly and tasty as possible.
-              </p>
-              <br/>
-              <p class="services__description">
-                In our company, you will find coffee machines for both home and
-                office use, as well for coffee shops.
-              </p>
-            </div>
-            <div class="services__list">
-              <div class="services__list--block">
-                <img class="services__icon" src="icon/checked-red-dot.svg" alt="Checked Red Dot"/>
-                <p class="list__item--services">
-                  Only modern manual and automatic coffee machines from trusted
-                  brands.
+            <img class="services__img" src="img/coffee_machine.png" alt="Coffee machine" />
+            <div>
+              <div class="services__card--text">
+                <h4 class="services__card-name">Coffee Machine Rental.</h4>
+                <div class="services__divider">
+                  <div class="divider__component"></div>
+                </div>
+                <p class="services__description">
+                  Do you want to always drink your favorite coffee, but don't
+                  want to waste time brewing it? Our company is ready to help
+                  you. Here you can rent manual and automatic coffee machines
+                  that will prepare your favorite drink as quickly and tasty as
+                  possible.
+                </p>
+                <br />
+                <p class="services__description">
+                  In our company, you will find coffee machines for both home
+                  and office use, as well for coffee shops.
                 </p>
               </div>
-              <div class="services__list--block">
-                <img class="services__icon" src="icon/checked-red-dot.svg" alt="Checked Red Dot"/>
-                <p class="list__item--services">
-                  Any coffee machines, from inexpensive for home use to
-                  professional equipment for a coffee shop.
-                </p>
-              </div>
-              <div class="services__list--block">
-                <img class="services__icon" src="icon/checked-red-dot.svg" alt="Checked Red Dot"/>
-                <p class="list__item--services">
-                  Simple conditions for renting a coffee machine – for any period
-                  with a minimum deposit.
-                </p>
+              <div class="services__list">
+                <div class="services__list--block">
+                  <img class="services__icon" src="icon/checked-red-dot.svg" alt="Checked Red Dot" />
+                  <p class="list__item--services">
+                    Only modern manual and automatic coffee machines from
+                    trusted brands.
+                  </p>
+                </div>
+                <div class="services__list--block">
+                  <img class="services__icon" src="icon/checked-red-dot.svg" alt="Checked Red Dot" />
+                  <p class="list__item--services">
+                    Any coffee machines, from inexpensive for home use to
+                    professional equipment for a coffee shop.
+                  </p>
+                </div>
+                <div class="services__list--block">
+                  <img class="services__icon" src="icon/checked-red-dot.svg" alt="Checked Red Dot" />
+                  <p class="list__item--services">
+                    Simple conditions for renting a coffee machine – for any
+                    period with a minimum deposit.
+                  </p>
+                </div>
               </div>
             </div>
           </article>
           <article class="consulting none">
-            <img class="services__img" src="img/specialist.png" alt="Specialist"/>
-            <div class="services__card--text">
-              <h4 class="services__card-name">
-                Consulting For Coffee Shop Owners.
-              </h4>
-              <div class="services__divider">
-                <div class="divider__component"></div>
-              </div>
-              <p class="services__description">
-                We offer consulting services for clients who wish to rent a coffee
-                machine or order coffee beans for professional use.
-              </p>
-              <br/>
-              <p class="services__description">
-                You can get advice from our specialists in any convenient way. Our
-                experts will provide answers to all your questions and help you
-                solve any problems related to choosing equipment or starting a
-                coffee shop, like:
-              </p>
-            </div>
-            <div class="services__list">
-              <div class="services__list--block">
-                <img class="services__icon" src="icon/checked-red-dot.svg" alt="Checked Red Dot"/>
-                <p class="list__item--services">
-                  What is the best coffee machine for professional use in a small
-                  coffee shop or a large restaurant?
+            <img class="services__img" src="img/specialist.png" alt="Specialist" />
+            <div>
+              <div class="services__card--text">
+                <h4 class="services__card-name">
+                  Consulting For Coffee Shop Owners.
+                </h4>
+                <div class="services__divider">
+                  <div class="divider__component"></div>
+                </div>
+                <p class="services__description">
+                  We offer consulting services for clients who wish to rent a
+                  coffee machine or order coffee beans for professional use.
+                </p>
+                <br />
+                <p class="services__description">
+                  You can get advice from our specialists in any convenient way.
+                  Our experts will provide answers to all your questions and
+                  help you solve any problems related to choosing equipment or
+                  starting a coffee shop, like:
                 </p>
               </div>
-              <div class="services__list--block">
-                <img class="services__icon" src="icon/checked-red-dot.svg" alt="Checked Red Dot"/>
-                <p class="list__item--services">
-                  Which coffee brands are suitable for use in professional
-                  equipment and how to calculate the required coffee supply?
-                </p>
-              </div>
-              <div class="services__list--block">
-                <img class="services__icon" src="icon/checked-red-dot.svg" alt="Checked Red Dot"/>
-                <p class="list__item--services">
-                  How often is it necessary to diagnose professional equipment?
-                </p>
+              <div class="services__list">
+                <div class="services__list--block">
+                  <img class="services__icon" src="icon/checked-red-dot.svg" alt="Checked Red Dot" />
+                  <p class="list__item--services">
+                    What is the best coffee machine for professional use in a
+                    small coffee shop or a large restaurant?
+                  </p>
+                </div>
+                <div class="services__list--block">
+                  <img class="services__icon" src="icon/checked-red-dot.svg" alt="Checked Red Dot" />
+                  <p class="list__item--services">
+                    Which coffee brands are suitable for use in professional
+                    equipment and how to calculate the required coffee supply?
+                  </p>
+                </div>
+                <div class="services__list--block">
+                  <img class="services__icon" src="icon/checked-red-dot.svg" alt="Checked Red Dot" />
+                  <p class="list__item--services">
+                    How often is it necessary to diagnose professional
+                    equipment?
+                  </p>
+                </div>
               </div>
             </div>
           </article>
           <article class="accessories none">
-            <img class="services__img" src="img/accessories.png" alt="Accessories"/>
-            <div class="services__card--text">
-              <h4 class="services__card-name">Coffee Machine Accessories.</h4>
-              <div class="services__divider">
-                <div class="divider__component"></div>
-              </div>
-              <p class="services__description">
-                A reliable coffee machine is important, but accessories will also
-                come in handy for home, office, or commercial use.
-              </p>
-              <br/>
-              <p class="services__description">
-                We offer our customers everything they need for comfortable
-                brewing. We sell disposable cups, caps, spoons, spare parts for
-                coffee machines, filters, and many other accessories that you may
-                need for the comfortable use of the equipment.
-              </p>
-            </div>
-            <div class="services__list">
-              <div class="services__list--block">
-                <img class="services__icon" src="icon/checked-red-dot.svg" alt="Checked Red Dot"/>
-                <p class="list__item--services">
-                  Disposable cups made from recyclable cardboard can be
-                  branded to match your company name.
+            <img class="services__img" src="img/accessories.png" alt="Accessories" />
+            <div>
+              <div class="services__card--text">
+                <h4 class="services__card-name">Coffee Machine Accessories.</h4>
+                <div class="services__divider">
+                  <div class="divider__component"></div>
+                </div>
+                <p class="services__description">
+                  A reliable coffee machine is important, but accessories will
+                  also come in handy for home, office, or commercial use.
+                </p>
+                <br />
+                <p class="services__description">
+                  We offer our customers everything they need for comfortable
+                  brewing. We sell disposable cups, caps, spoons, spare parts
+                  for coffee machines, filters, and many other accessories that
+                  you may need for the comfortable use of the equipment.
                 </p>
               </div>
-              <div class="services__list--block">
-                <img class="services__icon" src="icon/checked-red-dot.svg" alt="Checked Red Dot"/>
-                <p class="list__item--services">
-                  Any number of tissues, disposable spoons, sugar sticks, and
-                  other accessories.
-                </p>
-              </div>
-              <div class="services__list--block">
-                <img class="services__icon" src="icon/checked-red-dot.svg" alt="Checked Red Dot"/>
-                <p class="list__item--services">
-                  Replaceable filters and other spare parts for coffee
-                  machines of any brand.
-                </p>
+              <div class="services__list">
+                <div class="services__list--block">
+                  <img class="services__icon" src="icon/checked-red-dot.svg" alt="Checked Red Dot" />
+                  <p class="list__item--services">
+                    Disposable cups made from recyclable cardboard can be
+                    branded to match your company name.
+                  </p>
+                </div>
+                <div class="services__list--block">
+                  <img class="services__icon" src="icon/checked-red-dot.svg" alt="Checked Red Dot" />
+                  <p class="list__item--services">
+                    Any number of tissues, disposable spoons, sugar sticks, and
+                    other accessories.
+                  </p>
+                </div>
+                <div class="services__list--block">
+                  <img class="services__icon" src="icon/checked-red-dot.svg" alt="Checked Red Dot" />
+                  <p class="list__item--services">
+                    Replaceable filters and other spare parts for coffee
+                    machines of any brand.
+                  </p>
+                </div>
               </div>
             </div>
           </article>
           <article class="repair none">
-            <img class="services__img" src="img/repair.png" alt="Repair"/>
-            <div class="services__card--text">
-              <h4 class="services__card-name">Coffee Machine Repair.</h4>
-              <div class="services__divider">
-                <div class="divider__component"></div>
-              </div>
-              <p class="services__description">
-                Coffee machines, like any other equipment, can fail. If that's
-                your case, it's better to entrust it to a competent specialist.
-              </p>
-              <br/>
-              <p class="services__description">
-                Our employees will carry out repairs as soon as possible. They
-                carry out maintenance of coffee machines of all brands and models
-                that we offer for rent. The experts will quickly arrive at the
-                site and solve a problem of any complexity.
-              </p>
-            </div>
-            <div class="services__list">
-              <div class="services__list--block">
-                <img class="services__icon" src="icon/checked-red-dot.svg" alt="Checked Red Dot"/>
-                <p class="list__item--services">
-                  Regular service. Scheduled maintenance will help to keep
-                  your coffee machine in the best condition.
+            <img class="services__img" src="img/repair.png" alt="Repair" />
+            <div>
+              <div class="services__card--text">
+                <h4 class="services__card-name">Coffee Machine Repair.</h4>
+                <div class="services__divider">
+                  <div class="divider__component"></div>
+                </div>
+                <p class="services__description">
+                  Coffee machines, like any other equipment, can fail. If that's
+                  your case, it's better to entrust it to a competent
+                  specialist.
+                </p>
+                <br />
+                <p class="services__description">
+                  Our employees will carry out repairs as soon as possible. They
+                  carry out maintenance of coffee machines of all brands and
+                  models that we offer for rent. The experts will quickly arrive
+                  at the site and solve a problem of any complexity.
                 </p>
               </div>
-              <div class="services__list--block">
-                <img class="services__icon" src="icon/checked-red-dot.svg" alt="Checked Red Dot"/>
-                <p class="list__item--services">
-                  Replacement of all spare parts and consumables when needed
-                  fo free.
-                </p>
-              </div>
-              <div class="services__list--block">
-                <img class="services__icon" src="icon/checked-red-dot.svg" alt="Checked Red Dot"/>
-                <p class="list__item--services">
-                  Prompt replacement of the coffee machine in the event of a
-                  malfunction.
-                </p>
+              <div class="services__list">
+                <div class="services__list--block">
+                  <img class="services__icon" src="icon/checked-red-dot.svg" alt="Checked Red Dot" />
+                  <p class="list__item--services">
+                    Regular service. Scheduled maintenance will help to keep
+                    your coffee machine in the best condition.
+                  </p>
+                </div>
+                <div class="services__list--block">
+                  <img class="services__icon" src="icon/checked-red-dot.svg" alt="Checked Red Dot" />
+                  <p class="list__item--services">
+                    Replacement of all spare parts and consumables when needed
+                    fo free.
+                  </p>
+                </div>
+                <div class="services__list--block">
+                  <img class="services__icon" src="icon/checked-red-dot.svg" alt="Checked Red Dot" />
+                  <p class="list__item--services">
+                    Prompt replacement of the coffee machine in the event of a
+                    malfunction.
+                  </p>
+                </div>
               </div>
             </div>
           </article>
@@ -679,11 +702,13 @@
 
       <div class="container">
         <div class="carusel-coffee">
-          <button class="prev-button"><img class="arrow-btn arrow-to-left" src="img/arrow.svg" alt="Arrow Button"
-              width="30"></button>
+          <button class="prev-button">
+            <img class="arrow-btn arrow-to-left" src="img/arrow.svg" alt="Arrow Button" width="30" />
+          </button>
           <div class="slides-coffee"></div>
-          <button class="next-button"><img class="arrow-btn arrow-to-right" src="img/arrow.svg" alt="Arrow Button"
-              width="30"></button>
+          <button class="next-button">
+            <img class="arrow-btn arrow-to-right" src="img/arrow.svg" alt="Arrow Button" width="30" />
+          </button>
         </div>
       </div>
 
@@ -841,7 +866,8 @@
         <div class="content__questions">
           <h2>QUESTIONS?</h2>
           <h3 class="header__questions">
-            Ask Us Anything About<span class="header__questions-accent"> Coffee</span>
+            Ask Us Anything About<span class="header__questions-accent">
+              Coffee</span>
           </h3>
           <p class="text__questions">
             Coffee is our business. Ask us anything about the coffee machines
@@ -898,18 +924,18 @@
           </div>
         </div>
       </div>
+      <svg class="wave-top" viewBox="0 0 1200 250">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M0 108.306L50 114.323C100 120.34 200 132.374 300 168.476C400 204.578 500 264.749 600 246.698C700 228.647 800 132.374 900 108.306C1000 84.2382 1100 132.374 1150 156.442L1200 180.51V-8.5451e-06H1150C1100 -8.5451e-06 1000 -8.5451e-06 900 -8.5451e-06C800 -8.5451e-06 700 -8.5451e-06 600 -8.5451e-06C500 -8.5451e-06 400 -8.5451e-06 300 -8.5451e-06C200 -8.5451e-06 100 -8.5451e-06 50 -8.5451e-06H0V108.306Z"
+          fill="#c00407" />
+      </svg>
     </section>
-    <svg class="wave-top" viewBox="0 0 1200 250">
-      <path fill-rule="evenodd" clip-rule="evenodd"
-        d="M0 108.306L50 114.323C100 120.34 200 132.374 300 168.476C400 204.578 500 264.749 600 246.698C700 228.647 800 132.374 900 108.306C1000 84.2382 1100 132.374 1150 156.442L1200 180.51V-8.5451e-06H1150C1100 -8.5451e-06 1000 -8.5451e-06 900 -8.5451e-06C800 -8.5451e-06 700 -8.5451e-06 600 -8.5451e-06C500 -8.5451e-06 400 -8.5451e-06 300 -8.5451e-06C200 -8.5451e-06 100 -8.5451e-06 50 -8.5451e-06H0V108.306Z"
-        fill="#c00407" />
-    </svg>
     <section id="pricing" class="pricing container">
       <h2>pricing</h2>
       <h1>Ready to Rent a Coffee Machine?</h1>
       <p>
-        We offer several pricing plans depending on what type of equipment
-        you need.
+        We offer several pricing plans depending on what type of equipment you
+        need.
       </p>
       <div class="container__pricing">
         <div class="pricing__item">
@@ -1031,7 +1057,7 @@
         </div>
       </div>
     </section>
-    <section class="video">
+    <section class="video container">
       <h1 class="timer"></h1>
       <div class="video__container">
         <div class="bg__table">
@@ -1050,9 +1076,7 @@
     <section class="cta-small">
       <div class="cta-small__container">
         <div class="cta-small__titles">
-          <h2 class="cta-small__title">
-            Choose Your Perfect Type of Coffee
-          </h2>
+          <h2 class="cta-small__title">Choose Your Perfect Type of Coffee</h2>
           <p class="cta-small__subtitle">
             We supply coffee beans with free delivery.
           </p>
@@ -1062,7 +1086,7 @@
             <a class="button white-black" href="#coffee">Coffee Beans</a>
           </div>
           <div class="buttons-container">
-            <a class="button red-white" href="#contacts__info">Learn More</a>
+            <a class="button red-white" href="#contacts">Learn More</a>
           </div>
         </div>
       </div>
@@ -1072,8 +1096,8 @@
         <h3 class="testimonials__name">Testimonials</h3>
         <h2 class="testimonials__title">Warm Words from Our Clients</h2>
         <p class="testimonials__subtitle">
-          We are glad that our coffee machines and delicious whole-bean
-          coffee delight our customers.
+          We are glad that our coffee machines and delicious whole-bean coffee
+          delight our customers.
         </p>
       </div>
       <div class="reviews">
@@ -1084,8 +1108,8 @@
         <img class="arrow-btn arrow-to-right-testimonials" src="/img/arrow.svg" alt="Arrow Button" width="30" />
       </div>
     </section>
-    <section id="faq" class="faq container">
-      <img class="faq__image" src="img/faq-image.png" alt="women drink coffee">
+    <section id="faq" class="faq">
+      <img class="faq__image" src="img/faq-image.png" alt="women drink coffee" />
       <div class="faq__text-content">
         <div class="faq__titles">
           <h3 class="faq__name">FAQ</h3>
@@ -1098,40 +1122,70 @@
         </div>
         <div class="accordeon">
           <div class="faq-button">
-            <p class="faq-question">What coffee machines do you offer?</p>
+            <div class="faq-question">
+              <p class="faq-question-text">What coffee machines do you offer?</p>
+              <div class="faq-icon">
+                <div class="faq-icon-vertical"></div>
+                <div class="faq-icon-horizontal"></div>
+              </div>
+            </div>
             <span class="faq-answer">We offer our customers various types of coffee machines – from
               manual ones for home use to professional equipment.</span>
           </div>
           <div class="faq-button">
-            <p class="faq-question">
-              Can I use my coffee in a rented coffee machine?
-            </p>
+            <div class="faq-question">
+              <p class="faq-question-text">Can I use my coffee in a rented coffee machine?</p>
+              <div class="faq-icon">
+                <div class="faq-icon-vertical"></div>
+                <div class="faq-icon-horizontal"></div>
+              </div>
+            </div>
             <span class="faq-answer">Sure. You can buy our coffee beans if you wish. But you can
               also use any other coffee beans.</span>
           </div>
           <div class="faq-button">
-            <p class="faq-question">What is the minimum rental period?</p>
+            <div class="faq-question">
+              <p class="faq-question-text">What is the minimum rental period?</p>
+              <div class="faq-icon">
+                <div class="faq-icon-vertical"></div>
+                <div class="faq-icon-horizontal"></div>
+              </div>
+            </div>
             <span class="faq-answer">You can rent a coffee machine for at least 2 months.</span>
           </div>
           <div class="faq-button">
-            <p class="faq-question">
-              What if the coffee machine breaks down?
-            </p>
+            <div class="faq-question">
+              <p class="faq-question-text">What if the coffee machine breaks down?</p>
+              <div class="faq-icon">
+                <div class="faq-icon-vertical"></div>
+                <div class="faq-icon-horizontal"></div>
+              </div>
+            </div>
             <span class="faq-answer">In the event of a malfunction of the coffee machine, you need
               to contact our manager, and we will immediately repair or
               replace the coffee machine.</span>
           </div>
           <div class="faq-button">
-            <p class="faq-question">How to order a coffee machine?</p>
+            <div class="faq-question">
+              <p class="faq-question-text">How to order a coffee machine?</p>
+              <div class="faq-icon">
+                <div class="faq-icon-vertical"></div>
+                <div class="faq-icon-horizontal"></div>
+              </div>
+            </div>
             <span class="faq-answer">Choose a coffee machine right on the website or send us a
               request if you need advice. We will contact you, discuss all the
               details, send you a rental agreement, and install the chosen
               coffee machine.</span>
           </div>
           <div class="faq-button">
-            <p class="faq-question">
-              What if I want to cancel my coffee machine rental?
-            </p>
+            <div class="faq-question">
+              <p class="faq-question-text">What if I want to cancel my coffee machine rental?</p>
+              <div class="faq-icon">
+                <div class="faq-icon-vertical"></div>
+                <div class="faq-icon-horizontal"></div>
+              </div>
+            </div>
             <span class="faq-answer">You can terminate your rental at any time. To do this, inform
               our manager about your decision, and our specialists will pick
               up the coffee machine.</span>
@@ -1139,98 +1193,108 @@
         </div>
       </div>
     </section>
-    </section>
     <!-- Olena Mieshkova -->
     <section id="contacts" class="contact-us container">
       <div class="contacts container">
-        <div class="contacts__titles">
-          <h3 class="contacts__name">Contacts</h3>
-          <h2 class="contacts__title">We're Always in Touch</h2>
-          <p class="subtitle contacts__subtitle">
-            Feel free to contact us if you need a consultation:
-          </p>
-        </div>
-        <div class="contact-us-list">
-          <div data-component="collection" class="collection contacts__list" data-items-count="3">
-            <div class="info-list">
-              <h3 class="address__name">Address</h3>
-              <p class="info-text">303 E 61st St, New York,</p>
-              <p class="info-text">NY 10065</p>
-            </div>
-            <div class="info-list">
-              <h3 class="hours__name">Hours</h3>
-              <p class="info-text">Monday - Saturday: 11 AM - 9 PM</p>
-              <p class="info-text">Sunday: 11 AM - 7 PM</p>
-            </div>
-            <div class="info-list">
-              <h3 class="contacts-info__name">Contacts</h3>
-              <p class="info-text">
-                <span class="phone">
-                  <a href="tel:+1(234)5678900">+1 (234) 567 89 00</a>
-                </span>
-              </p>
-              <p class="info-text">
-                <span class="email">
-                  <a href="mailto:coffeespace@email.com">coffeespace@email.com</a>
-                </span>
-              </p>
+        <div class="contact-us-block">
+          <div class="contacts__titles">
+            <h3 class="contacts__name">Contacts</h3>
+            <h2 class="contacts__title">We're Always in Touch</h2>
+            <p class="subtitle contacts__subtitle">
+              Feel free to contact us if you need a consultation:
+            </p>
+          </div>
+          <div class="contact-us-list">
+            <div data-component="collection" class="collection contacts__list" data-items-count="3">
+              <div class="info-list">
+                <h3 class="address__name">Address</h3>
+                <p class="info-text">303 E 61st St, New York,</p>
+                <p class="info-text">NY 10065</p>
+              </div>
+              <div class="info-list">
+                <h3 class="hours__name">Hours</h3>
+                <p class="info-text">Monday - Saturday: 11 AM - 9 PM</p>
+                <p class="info-text">Sunday: 11 AM - 7 PM</p>
+              </div>
+              <div class="info-list">
+                <h3 class="contacts-info__name">Contacts</h3>
+                <p class="info-text">
+                  <span class="phone">
+                    <a href="tel:+1(234)5678900">+1 (234) 567 89 00</a>
+                  </span>
+                </p>
+                <p class="info-text">
+                  <span class="email">
+                    <a href="mailto:coffeespace@email.com">coffeespace@email.com</a>
+                  </span>
+                </p>
+              </div>
             </div>
           </div>
+          <iframe width="244"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d994.0189325229748!2d-73.9637783779292!3d40.76164823593803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258e62ee94721%3A0x7c0f8f9e54640f0b!2zMzAzIEUgNjFzdCBTdCwgTmV3IFlvcmssIE5ZIDEwMDY1LCDQodCo0JA!5e0!3m2!1sru!2sua!4v1662734751673!5m2!1sru!2sua"
+            width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <iframe width="244" height="100%"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d994.0189325229748!2d-73.9637783779292!3d40.76164823593803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258e62ee94721%3A0x7c0f8f9e54640f0b!2zMzAzIEUgNjFzdCBTdCwgTmV3IFlvcmssIE5ZIDEwMDY1LCDQodCo0JA!5e0!3m2!1sru!2sua!4v1662734751673!5m2!1sru!2sua"
-          width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"></iframe>
         <div class="form__contacts">
-          <form class="form__info__contacts" action="#" id="form-contact" method="POST">
-            <ul>
-              <li><input class="form__info" type="text" name="name" placeholder="Enter your full name*" required /></li>
-              <li><input class="form__info" type="text" name="phone" placeholder="Enter your phone number*" required />
-              </li>
-              <li><input class="form__info" type="text" name="email" placeholder="Enter your e-mail*" required /></li>
-              <li><textarea class="form__info" name="message" id="info__message" cols="30" rows="10"
-                  placeholder="Type your message" required></textarea></li>
-              <li><input class="form__info__button" type="submit" value="Request a Quote" /></li>
-            </ul>
+          <form class="w-form ui-contact-form form__info__contacts" action="#" id="form-contact" method="POST">
+            <div class="form-field">
+              <input class="form__info form-input" type="text" name="name" placeholder="Enter your full name*"
+                required />
+            </div>
+            <div class="form-field">
+              <input class="form__info form-input" type="text" name="phone" placeholder="Enter your phone number*"
+                required />
+            </div>
+            <div class="form-field">
+              <input class="form__info form-input" type="text" name="email" placeholder="Enter your e-mail*" required />
+            </div>
+            <div class="form-field">
+              <textarea class="form__info form-input" name="message" id="info__message" cols="30" rows="10"
+                placeholder="Type your message" required></textarea>
+            </div>
+            <div class="form-field">
+              <input class="form__info__button" type="submit" value="Request a Quote" />
+            </div>
           </form>
         </div>
       </div>
     </section>
   </main>
-  <footer class="footer__section footer__sitemap container">
-    <div class="footer__icon">
-      <img width="238" src="icon/footer-logo.svg" alt="" />
-      <p class="footer__subtitle">
-        We offer coffee machines rental for home, office or commercial use.
-        Also, here you can buy coffee beans, as well as all the necessary
-        consumables and spare parts for your coffee machines.
-      </p>
-    </div>
-    <nav class="footer__navigation">
-      <p class="navigation__text">Navigation</p>
-      <a class="navigation__item" href="#aboutus">About us</a>
-      <a class="navigation__item" href="#howtoorder">How to order</a>
-      <a class="navigation__item" href="#services">Services</a>
-      <a class="navigation__item" href="#pricing">Pricing</a>
-    </nav>
-    <nav class="footer__shop">
-      <p class="shop__navigation">Shop</p>
-      <a class="navigation__item" href="#coffeemachines">Coffee Machines</a>
-      <a class="navigation__item" href="#coffee">Coffee</a>
-      <a class="navigation__item" href="#faq">FAQ</a>
-      <a class="navigation__item" href="#contactus">Contact us</a>
-    </nav>
-    <div class="footer__contact-form">
-      <p class="contact-form__text">Subscribe to our newsletter</p>
-    </div>
-    <div>
-      <form class="contact-form__mail" action="mailto:coffeespace@email.com">
-        <input type="text" name="email" required placeholder="Email*" />
-        <button type="submit">Subscribe</button>
-      </form>
+  <footer class="footer container">
+    <div class="footer__info__all">
+      <div class="footer__icon">
+        <img width="238" src="icon/footer-logo.svg" alt="" />
+        <p class="footer__subtitle">
+          We offer coffee machines rental for home, office or commercial use.
+          Also, here you can buy coffee beans, as well as all the necessary
+          consumables and spare parts for your coffee machines.
+        </p>
+      </div>
+      <nav class="footer__navigation">
+        <p class="navigation__text">Navigation</p>
+        <a class="navigation__item" href="#aboutus">About us</a>
+        <a class="navigation__item" href="#howtoorder">How to order</a>
+        <a class="navigation__item" href="#services">Services</a>
+        <a class="navigation__item" href="#pricing">Pricing</a>
+      </nav>
+      <nav class="footer__shop">
+        <p class="shop__navigation">Shop</p>
+        <a class="navigation__item" href="#coffeemachines">Coffee Machines</a>
+        <a class="navigation__item" href="#coffee">Coffee</a>
+        <a class="navigation__item" href="#faq">FAQ</a>
+        <a class="navigation__item" href="#contactus">Contact us</a>
+      </nav>
+      <div class="footer__contact-form">
+        <p class="contact-form__text">Subscribe to our newsletter</p>
+        <form class="contact-form__mail" action="#">
+          <input type="email" class="email__input" required placeholder="Email*" />
+          <button type="submit" class="submit__button">Subscribe</button>
+        </form>
+      </div>
     </div>
     <div class="footer__creating">
-      <p class="creating__text">© Created by | All rights Reserved</p>
+      <p class="creating__text">© Created by Team #4 | All rights Reserved</p>
     </div>
     <div class="footer__contacts">
       <a href="#">
@@ -1315,7 +1379,6 @@
   <script src="js/carusel-coffee-machine.js"></script>
   <script src="js/faq-accordion.js"></script>
   <script src="js/timer.js"></script>
-  <script src="anime.min.js"></script>
 </body>
 
 </html>

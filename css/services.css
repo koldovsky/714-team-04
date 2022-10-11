@@ -69,9 +69,19 @@
     overflow-y: hidden;
     overflow-x: hidden;
     object-position: 4.274% 0%;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
 }
 .services__cards {
     margin-top: 45px;
+}
+.rentalservices,
+.consulting,
+.accessories,
+.repair {
+box-sizing: border-box;
+border-radius: 8px;
+box-shadow: 0 5px 11.2px 2.8px rgba(136,140,133,.12);
 }
 .services__card--text {
     padding: 39px 39px 0 39px;
@@ -140,4 +150,91 @@
 
 .none {
     display: none;
+}
+
+@media (min-width: 768px) {
+    .services__header--box {
+        margin-left: 16.6667%;
+        padding-left: 15px;
+        padding-right: 15px;
+        max-width: 66.6667%;
+        letter-spacing: normal;
+    }
+    .header__services {
+        margin-top: 30px;
+        font-size: 37px;
+        letter-spacing: normal;
+        line-height: 44.4px;
+    }
+    .services__content {
+        margin-top: 60px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .nav__services {
+        display: inline-flex;
+        position: relative;
+        min-width: 100%;
+        justify-content: center;
+    }
+    .rentalservices,
+    .consulting,
+    .accessories,
+    .repair {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .services__img {
+        object-fit: cover;
+        object-position: 4.274% 0%;
+        display: flex;
+        height: 782.062px;
+        width: 352px;
+    }
+    .services__card--text {
+        padding: 46px 46px 0px 46px;
+    }
+    .services__card-name {
+        font-size: 22px;
+        line-height: 33px;
+        letter-spacing: normal;
+    }
+    .services__list {
+        margin-top: 30px;
+        vertical-align: middle;
+    }
+} 
+@media (min-width: 992px) {
+    .services {
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: 0;
+    }
+    .header__services {
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .text__services {
+        padding: 0;
+    }
+    .services__img {
+        height: 707.688px;
+        width: 447.5px;
+    }
+    .services__card--text {
+        padding-left: 60px;
+        padding-top: 60px;
+        padding-right: 60px;
+    }
+    .services__list {
+        padding-left: 60px;
+        padding-right: 55px;
+    }
+}
+@media (min-width: 1240px) {
+    .services__img {
+        height: 100%;
+        width: 100%;
+        object-position: 4.274% 0%;
+    }
 }
