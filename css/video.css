@@ -7,16 +7,18 @@
     background-attachment: fixed;
     padding: 195px 0px 200px;
     z-index: 100;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .video-href__item {
    display: grid;
+   max-width: 200px;
 }
 
 .video__href {
-    padding: 0px 240px;
+    /* padding: 0px 240px; */
     font-family: var(--font-primary);
     font-size: 12px;
     text-transform: uppercase;
@@ -26,9 +28,8 @@
  .video__text {
     color: #fff;
     font-family: var(--font-secondary);
-    font-size: 68px;
+    font-size: 48px;
     font-weight: 700;
-    margin: 0px 240px;
     display: flex;
  }
 
@@ -48,11 +49,19 @@
     margin: 10px;
  }
  @media(min-width: 769px) {
+   .bg__table{
+      flex-direction: row;
+   }
+
+   .video__text {
+      font-size: 68px;
+   }
+
    .video__play {
       display: flex;
    }
 
    .video__container {
-      display: grid;
+      display: flex;
    }
  }
