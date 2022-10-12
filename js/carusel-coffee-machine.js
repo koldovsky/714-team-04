@@ -6,10 +6,10 @@
         slides.push(`
         <article>
             <a class="info-link__coffee-machine" href="product-info.html">
-            <img data-id=${product.id} width="450" src="${product.img}" alt="${product.title} coffee"> 
-            <h3 data-id=${product.id}>${product.title}</h3></a>
-            <h3>${product.prise}USD</h3>
-            <button class="" href="" data-id=${product.id}>Add to cart</button>
+            <img class="product-img" data-id=${product.id} width="450" src="${product.img}" alt="${product.title} coffee"> 
+            <h3 class="product-title" data-id=${product.id}>${product.title}</h3></a>
+            <h3 class = "product-prise">${product.prise}USD</h3>
+            <button class="add-to-cart" href="" data-id=${product.id}>Add to cart</button>
         </article>
         `);
     }

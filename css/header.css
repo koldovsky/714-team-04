@@ -179,3 +179,9 @@
         align-items: center;
     }
 }
+
+@media (min-width: 1300px) {
+    .main-header__navigation {
+        margin-right: 50px;
+    }
+}
